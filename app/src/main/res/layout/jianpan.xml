@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+<LinearLayout 
+       android:layout_width="fill_parent"
+       android:layout_height="@dimen/xt70dp"
+
+       android:layout_marginBottom="@dimen/xt20dp"
+       android:layout_marginTop="@dimen/xt20dp"
+       android:orientation="horizontal"
+       android:id="@+id/aa"
+       android:background="@drawable/shubiao_bg"
+       >
+       <TextView 
+           android:layout_width="fill_parent"
+           android:layout_height="fill_parent"
+           android:text="Tab"
+           android:textSize="@dimen/xt20sp"
+           android:gravity="center"
+           android:id="@+id/tab"
+           android:drawableRight="@drawable/close"
+           android:drawablePadding="0dp"
+           android:textColor="@color/white"
+           android:layout_weight="1"
+           android:background="@drawable/left_bg"
+           />
+       <TextView 
+           android:layout_width="0.5dp"
+           android:layout_height="fill_parent"
+			android:background="@color/white"
+			android:layout_marginTop="@dimen/xt5dp"
+			android:layout_marginBottom="@dimen/xt5dp"
+           />
+       <TextView 
+           android:layout_width="fill_parent"
+           android:layout_height="fill_parent"
+           android:text="@string/save"
+           android:textSize="@dimen/xt20sp"
+           android:gravity="center"
+           android:id="@+id/save"
+           android:textColor="@color/white"
+           android:layout_weight="1"
+           android:background="@drawable/midle_bg"
+           />
+       <TextView 
+           android:layout_width="0.5dp"
+           android:layout_height="fill_parent"
+			android:background="@color/white"
+			android:layout_marginTop="@dimen/xt5dp"
+			android:layout_marginBottom="@dimen/xt5dp"
+           />
+              <TextView 
+           android:layout_width="fill_parent"
+           android:layout_height="fill_parent"
+           android:text="@string/close_"
+           android:gravity="center"
+           android:textSize="@dimen/xt20sp"
+           android:textColor="@color/white"
+           android:layout_weight="1"
+           android:id="@+id/close"
+           android:background="@drawable/right_bg"
+           />
+   </LinearLayout>
+
+<EditText 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/edit"
+           android:layout_marginLeft="@dimen/xt5dp"
+       android:layout_marginRight="@dimen/xt5dp"
+android:layout_below="@id/aa"
+android:textColor="#000000"
+android:textSize="@dimen/xt15sp"
+android:gravity="left"
+android:padding="@dimen/xt5dp"
+android:hint="@string/write_here"
+android:lines="2"
+android:id="@+id/edit"
+    />
+<Button 
+   android:layout_width="wrap_content"
+   android:layout_height="wrap_content"
+   android:text="@string/sendto" 
+   android:id="@+id/send"
+ 	android:layout_below="@id/edit"
+ 	android:textSize="@dimen/xt15sp"
+ 	android:textColor="@color/white"
+ 	android:background="@drawable/send_blue"
+ 	android:layout_alignParentRight="true"
+ 	android:layout_marginRight="@dimen/xt5dp"
+ 	android:layout_marginTop="@dimen/xt15dp"
+    />
+<Button 
+   android:layout_width="wrap_content"
+   android:layout_height="wrap_content"
+   android:text="@string/deleteshow" 
+   android:id="@+id/delete"
+ 	android:layout_below="@id/send"
+ 	android:textSize="@dimen/xt15sp"
+ 	android:textColor="@color/white"
+ 	android:background="@drawable/send_blue"
+android:layout_alignParentRight="true"
+ 	android:layout_marginRight="@dimen/xt5dp"
+ 	android:layout_marginTop="@dimen/xt15dp"
+    />
+</RelativeLayout>

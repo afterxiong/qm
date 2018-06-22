@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/common_corners"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="欢迎"
+        android:padding="20dp"
+        android:layout_gravity="center"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:lines="1"
+            android:drawableLeft="@mipmap/binding_org"
+            android:gravity="center"
+            android:text="所属组织" />
+
+        <Spinner
+            android:id="@+id/binding_to_org"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:lines="1"
+            android:gravity="center"
+            android:text="无" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:lines="1"
+            android:drawableLeft="@mipmap/binding_dept"
+            android:gravity="center"
+            android:text="所属部门" />
+
+
+        <Spinner
+            android:id="@+id/binding_to_dept"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:lines="1"
+            android:gravity="center"
+            android:text="无" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:lines="1"
+            android:drawableLeft="@mipmap/binding_name"
+            android:gravity="center"
+            android:text="姓   名" />
+
+        <EditText
+            android:id="@+id/ed_name"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="#FFFFFF"
+            android:lines="1"
+            android:gravity="center"
+            android:text="马化腾" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_binding_compile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:lines="1"
+        android:layout_gravity="center"
+        android:text="完成" />
+
+</LinearLayout>

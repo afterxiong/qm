@@ -1,0 +1,884 @@
+-- Merging decision tree log ---
+meta-data#UMENG_CHANNEL
+INJECTED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:77:9-79:54
+	android:value
+		INJECTED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:79:13-51
+	android:name
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:78:13-41
+meta-data#BUGLY_APP_CHANNEL
+INJECTED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:96:9-98:54
+	android:value
+		INJECTED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:98:13-51
+	android:name
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:97:13-45
+provider#android.support.v4.content.FileProvider
+INJECTED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:137:9-145:20
+	android:grantUriPermissions
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:141:13-47
+	android:authorities
+		INJECTED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:139:13-62
+	android:exported
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:140:13-37
+	android:name
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:138:13-67
+provider#com.baidu.mobads.openad.FileProvider
+INJECTED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:356:9-364:20
+	android:grantUriPermissions
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:360:13-47
+	android:authorities
+		INJECTED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:358:13-61
+	android:exported
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:359:13-37
+	android:name
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:357:13-64
+manifest
+ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:2:1-374:12
+INJECTED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:2:1-374:12
+INJECTED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:2:1-374:12
+INJECTED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:2:1-374:12
+MERGED from [com.android.support:multidex:1.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\878b953e70fbfc63d47ed0d1f90a8fb8\AndroidManifest.xml:17:1-22:12
+MERGED from [org.xutils:xutils:3.5.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\xutils-3.5.0.aar\a74f7f9513c143a3c006091538766014\AndroidManifest.xml:2:1-14:12
+MERGED from [com.gongwen:marqueelibrary:1.1.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\marqueelibrary-1.1.3.aar\a7a207eff9d1168d82ef03fe023c8880\AndroidManifest.xml:2:1-14:12
+MERGED from [com.android.support:design:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\48a97fd65a4a3a26648a89433c394115\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\56a7978d8b45b583c3a8b49be0c962d3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\35a4a565c2dde8b030cd709f16da9e7b\AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\play-services-appindexing-8.4.0.aar\bfbca9001564a51edafc2200491f85bb\AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-base:8.4.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\play-services-base-8.4.0.aar\f86348ef355700d72991c1625233e892\AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\play-services-basement-8.4.0.aar\235d87829645909361ef0600ca5fadb6\AndroidManifest.xml:16:1-26:12
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\489b15c6fcfc9f475de4bd112ad6b58b\AndroidManifest.xml:17:1-31:12
+MERGED from [com.jakewharton:butterknife:8.8.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\butterknife-8.8.1.aar\0d571ad398f30cf5e96ded190201df62\AndroidManifest.xml:2:1-7:12
+MERGED from [com.jakewharton.rxbinding2:rxbinding:2.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\rxbinding-2.0.0.aar\14d7bc38b36371f76335e546a1b60fe9\AndroidManifest.xml:2:1-8:12
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\rxandroid-2.0.1.aar\3c354bb28128cfa528247870ffcd07b0\AndroidManifest.xml:15:1-21:12
+MERGED from [com.aliyun.dpa:oss-android-sdk:2.8.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\oss-android-sdk-2.8.3.aar\65ddb6a51d1344129d61b1114f6a3553\AndroidManifest.xml:2:1-22:12
+MERGED from [com.github.zhaokaiqiang.klog:library:1.6.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\library-1.6.0.aar\942c66a920d9577e419dc7785983f4bd\AndroidManifest.xml:2:1-13:12
+MERGED from [com.github.niorgai:StatusBarCompat:2.1.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\StatusBarCompat-2.1.4.aar\cf4ea890e9e0f18a102650fba7fe49b2\AndroidManifest.xml:2:1-17:12
+MERGED from [com.tbruyelle.rxpermissions2:rxpermissions:0.9.5] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\rxpermissions-0.9.5.aar\e6b818eea6324977defc3aa7d682c047\AndroidManifest.xml:2:1-13:12
+MERGED from [:zbar-release:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zbar-release.aar\3637363228209334375f9c75b8779a01\AndroidManifest.xml:2:1-43:12
+MERGED from [:PhotoPicker-release:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\PhotoPicker-release.aar\7535579d7d104c281f19408447f87050\AndroidManifest.xml:2:1-25:12
+MERGED from [com.tencent.bugly:crashreport:2.6.6.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\crashreport-2.6.6.1.aar\e2dd8db306275ddf6c90997c571f5d4a\AndroidManifest.xml:2:1-9:12
+MERGED from [com.tencent.bugly:nativecrashreport:3.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\nativecrashreport-3.3.1.aar\1ef0f1d1fa25196bd0fa19240608b5dd\AndroidManifest.xml:2:1-9:12
+MERGED from [com.contrarywind:Android-PickerView:3.2.7] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\Android-PickerView-3.2.7.aar\4253784c2498920529e1932b2f4fe28b\AndroidManifest.xml:2:1-11:12
+MERGED from [com.liulishuo.filedownloader:library:1.6.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\library-1.6.9.aar\18c27616147020d35f3ca6e58ecb2e2a\AndroidManifest.xml:2:1-18:12
+MERGED from [com.scwang.smartrefresh:SmartRefreshLayout:1.0.5.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\SmartRefreshLayout-1.0.5.1.aar\84d60cbeae82b79518d8d3b645647bfc\AndroidManifest.xml:2:1-17:12
+MERGED from [com.scwang.smartrefresh:SmartRefreshHeader:1.0.5.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\SmartRefreshHeader-1.0.5.1.aar\dda53d11083ce54dae4f0a1fdfea58b0\AndroidManifest.xml:2:1-17:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\0d6c448d09987162d5d1d48f2ab8df2e\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\3361da3d24cb7f0b9cd2c5e71fb2a316\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\729ab17799f2be68bdf49551d4a34775\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\fe3e3d6d1c883cb78b60fcd4a708327d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\8eb8abedc61b1e5e7c7a3a34277b0412\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\7fecfe03f57cc993286feb8b61a204ba\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\39663cb9b71d54f657cdc56b81410eb8\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\40f45dfae061067881fbd5ba03ca92fb\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\3b3c61b974f8b005f7b493982dad309c\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\5d7b1bf7f8c877ef8d241f881af83832\AndroidManifest.xml:17:1-24:12
+INJECTED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:2:1-374:12
+INJECTED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:2:1-374:12
+INJECTED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:2:1-374:12
+	package
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:4:5-33
+		INJECTED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml
+		INJECTED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:2:1-374:12
+		INJECTED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:2:1-374:12
+		INJECTED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:6:5-83
+MERGED from [:zbar-release:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zbar-release.aar\3637363228209334375f9c75b8779a01\AndroidManifest.xml:29:5-84
+MERGED from [:zbar-release:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zbar-release.aar\3637363228209334375f9c75b8779a01\AndroidManifest.xml:29:5-84
+	android:name
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:6:22-81
+uses-permission#android.permission.CAPTURE_AUDIO_OUTPUT
+ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:7:5-79
+MERGED from [:zbar-release:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zbar-release.aar\3637363228209334375f9c75b8779a01\AndroidManifest.xml:31:5-79
+MERGED from [:zbar-release:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zbar-release.aar\3637363228209334375f9c75b8779a01\AndroidManifest.xml:31:5-79
+	android:name
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:7:22-76
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:10:5-75
+MERGED from [:zbar-release:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zbar-release.aar\3637363228209334375f9c75b8779a01\AndroidManifest.xml:27:5-75
+MERGED from [:zbar-release:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zbar-release.aar\3637363228209334375f9c75b8779a01\AndroidManifest.xml:27:5-75
+	android:name
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:10:22-72
+uses-permission#android.permission.INTERNET
+ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:11:5-67
+MERGED from [com.aliyun.dpa:oss-android-sdk:2.8.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\oss-android-sdk-2.8.3.aar\65ddb6a51d1344129d61b1114f6a3553\AndroidManifest.xml:11:5-67
+MERGED from [com.aliyun.dpa:oss-android-sdk:2.8.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\oss-android-sdk-2.8.3.aar\65ddb6a51d1344129d61b1114f6a3553\AndroidManifest.xml:11:5-67
+MERGED from [:zbar-release:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zbar-release.aar\3637363228209334375f9c75b8779a01\AndroidManifest.xml:25:5-67
+MERGED from [:zbar-release:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zbar-release.aar\3637363228209334375f9c75b8779a01\AndroidManifest.xml:25:5-67
+	android:name
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:11:22-64
+uses-permission#android.permission.CHANGE_WIFI_MULTICAST_STATE
+ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:13:5-86
+	android:name
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:13:22-83
+uses-permission#android.permission.VIBRATE
+ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:15:5-66
+MERGED from [:zbar-release:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zbar-release.aar\3637363228209334375f9c75b8779a01\AndroidManifest.xml:12:5-66
+MERGED from [:zbar-release:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zbar-release.aar\3637363228209334375f9c75b8779a01\AndroidManifest.xml:12:5-66
+	android:name
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:15:22-63
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:17:5-80
+MERGED from [:zbar-release:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zbar-release.aar\3637363228209334375f9c75b8779a01\AndroidManifest.xml:28:5-80
+MERGED from [:zbar-release:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zbar-release.aar\3637363228209334375f9c75b8779a01\AndroidManifest.xml:28:5-80
+MERGED from [:PhotoPicker-release:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\PhotoPicker-release.aar\7535579d7d104c281f19408447f87050\AndroidManifest.xml:10:5-80
+MERGED from [:PhotoPicker-release:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\PhotoPicker-release.aar\7535579d7d104c281f19408447f87050\AndroidManifest.xml:10:5-80
+	android:name
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:17:22-77
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:19:5-71
+	android:name
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:19:22-68
+uses-permission#android.permission.READ_CONTACTS
+ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:21:5-72
+	android:name
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:21:22-69
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:23:5-71
+MERGED from [:zbar-release:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zbar-release.aar\3637363228209334375f9c75b8779a01\AndroidManifest.xml:30:5-71
+MERGED from [:zbar-release:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zbar-release.aar\3637363228209334375f9c75b8779a01\AndroidManifest.xml:30:5-71
+	android:name
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:23:22-68
+uses-permission#android.permission.CAMERA
+ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:25:5-65
+MERGED from [:zbar-release:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zbar-release.aar\3637363228209334375f9c75b8779a01\AndroidManifest.xml:11:5-65
+MERGED from [:zbar-release:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zbar-release.aar\3637363228209334375f9c75b8779a01\AndroidManifest.xml:11:5-65
+MERGED from [:PhotoPicker-release:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\PhotoPicker-release.aar\7535579d7d104c281f19408447f87050\AndroidManifest.xml:11:5-65
+MERGED from [:PhotoPicker-release:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\PhotoPicker-release.aar\7535579d7d104c281f19408447f87050\AndroidManifest.xml:11:5-65
+	android:name
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:25:22-62
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:27:5-73
+MERGED from [:zbar-release:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zbar-release.aar\3637363228209334375f9c75b8779a01\AndroidManifest.xml:20:5-73
+MERGED from [:zbar-release:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zbar-release.aar\3637363228209334375f9c75b8779a01\AndroidManifest.xml:20:5-73
+	android:name
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:27:22-70
+uses-permission#android.permission.REORDER_TASKS
+ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:29:5-72
+MERGED from [:zbar-release:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zbar-release.aar\3637363228209334375f9c75b8779a01\AndroidManifest.xml:26:5-72
+MERGED from [:zbar-release:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zbar-release.aar\3637363228209334375f9c75b8779a01\AndroidManifest.xml:26:5-72
+	android:name
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:29:22-69
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:33:5-81
+MERGED from [:zbar-release:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zbar-release.aar\3637363228209334375f9c75b8779a01\AndroidManifest.xml:33:5-81
+MERGED from [:zbar-release:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zbar-release.aar\3637363228209334375f9c75b8779a01\AndroidManifest.xml:33:5-81
+	android:name
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:33:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:35:5-79
+MERGED from [:zbar-release:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zbar-release.aar\3637363228209334375f9c75b8779a01\AndroidManifest.xml:32:5-79
+MERGED from [:zbar-release:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zbar-release.aar\3637363228209334375f9c75b8779a01\AndroidManifest.xml:32:5-79
+	android:name
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:35:22-76
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:37:5-79
+MERGED from [com.aliyun.dpa:oss-android-sdk:2.8.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\oss-android-sdk-2.8.3.aar\65ddb6a51d1344129d61b1114f6a3553\AndroidManifest.xml:12:5-79
+MERGED from [com.aliyun.dpa:oss-android-sdk:2.8.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\oss-android-sdk-2.8.3.aar\65ddb6a51d1344129d61b1114f6a3553\AndroidManifest.xml:12:5-79
+MERGED from [:zbar-release:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zbar-release.aar\3637363228209334375f9c75b8779a01\AndroidManifest.xml:24:5-79
+MERGED from [:zbar-release:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zbar-release.aar\3637363228209334375f9c75b8779a01\AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:37:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:39:5-76
+MERGED from [com.aliyun.dpa:oss-android-sdk:2.8.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\oss-android-sdk-2.8.3.aar\65ddb6a51d1344129d61b1114f6a3553\AndroidManifest.xml:13:5-76
+MERGED from [com.aliyun.dpa:oss-android-sdk:2.8.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\oss-android-sdk-2.8.3.aar\65ddb6a51d1344129d61b1114f6a3553\AndroidManifest.xml:13:5-76
+MERGED from [:zbar-release:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zbar-release.aar\3637363228209334375f9c75b8779a01\AndroidManifest.xml:19:5-76
+MERGED from [:zbar-release:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zbar-release.aar\3637363228209334375f9c75b8779a01\AndroidManifest.xml:19:5-76
+	android:name
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:39:22-73
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:41:5-76
+MERGED from [com.aliyun.dpa:oss-android-sdk:2.8.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\oss-android-sdk-2.8.3.aar\65ddb6a51d1344129d61b1114f6a3553\AndroidManifest.xml:15:5-76
+MERGED from [com.aliyun.dpa:oss-android-sdk:2.8.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\oss-android-sdk-2.8.3.aar\65ddb6a51d1344129d61b1114f6a3553\AndroidManifest.xml:15:5-76
+MERGED from [:zbar-release:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zbar-release.aar\3637363228209334375f9c75b8779a01\AndroidManifest.xml:21:5-76
+MERGED from [:zbar-release:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zbar-release.aar\3637363228209334375f9c75b8779a01\AndroidManifest.xml:21:5-76
+	android:name
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:41:22-73
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:43:5-81
+MERGED from [com.aliyun.dpa:oss-android-sdk:2.8.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\oss-android-sdk-2.8.3.aar\65ddb6a51d1344129d61b1114f6a3553\AndroidManifest.xml:14:5-81
+MERGED from [com.aliyun.dpa:oss-android-sdk:2.8.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\oss-android-sdk-2.8.3.aar\65ddb6a51d1344129d61b1114f6a3553\AndroidManifest.xml:14:5-81
+MERGED from [com.github.zhaokaiqiang.klog:library:1.6.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\library-1.6.0.aar\942c66a920d9577e419dc7785983f4bd\AndroidManifest.xml:11:5-81
+MERGED from [com.github.zhaokaiqiang.klog:library:1.6.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\library-1.6.0.aar\942c66a920d9577e419dc7785983f4bd\AndroidManifest.xml:11:5-81
+MERGED from [:zbar-release:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zbar-release.aar\3637363228209334375f9c75b8779a01\AndroidManifest.xml:23:5-81
+MERGED from [:zbar-release:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zbar-release.aar\3637363228209334375f9c75b8779a01\AndroidManifest.xml:23:5-81
+MERGED from [:PhotoPicker-release:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\PhotoPicker-release.aar\7535579d7d104c281f19408447f87050\AndroidManifest.xml:9:5-81
+MERGED from [:PhotoPicker-release:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\PhotoPicker-release.aar\7535579d7d104c281f19408447f87050\AndroidManifest.xml:9:5-81
+	android:name
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:43:22-78
+uses-permission#android.permission.ACCESS_LOCATION_EXTRA_COMMANDS
+ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:45:5-89
+	android:name
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:45:22-86
+uses-permission#android.permission.BLUETOOTH
+ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:47:5-68
+	android:name
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:47:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:48:5-74
+	android:name
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:48:22-71
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:51:5-80
+	android:name
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:51:22-77
+application
+ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:55:5-373:19
+MERGED from [org.xutils:xutils:3.5.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\xutils-3.5.0.aar\a74f7f9513c143a3c006091538766014\AndroidManifest.xml:12:5-20
+MERGED from [org.xutils:xutils:3.5.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\xutils-3.5.0.aar\a74f7f9513c143a3c006091538766014\AndroidManifest.xml:12:5-20
+MERGED from [com.gongwen:marqueelibrary:1.1.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\marqueelibrary-1.1.3.aar\a7a207eff9d1168d82ef03fe023c8880\AndroidManifest.xml:12:5-20
+MERGED from [com.gongwen:marqueelibrary:1.1.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\marqueelibrary-1.1.3.aar\a7a207eff9d1168d82ef03fe023c8880\AndroidManifest.xml:12:5-20
+MERGED from [com.android.support:design:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\48a97fd65a4a3a26648a89433c394115\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:design:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\48a97fd65a4a3a26648a89433c394115\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:transition:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\35a4a565c2dde8b030cd709f16da9e7b\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\35a4a565c2dde8b030cd709f16da9e7b\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\play-services-appindexing-8.4.0.aar\bfbca9001564a51edafc2200491f85bb\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\play-services-appindexing-8.4.0.aar\bfbca9001564a51edafc2200491f85bb\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\play-services-basement-8.4.0.aar\235d87829645909361ef0600ca5fadb6\AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\play-services-basement-8.4.0.aar\235d87829645909361ef0600ca5fadb6\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\489b15c6fcfc9f475de4bd112ad6b58b\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\489b15c6fcfc9f475de4bd112ad6b58b\AndroidManifest.xml:25:5-29:19
+MERGED from [com.aliyun.dpa:oss-android-sdk:2.8.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\oss-android-sdk-2.8.3.aar\65ddb6a51d1344129d61b1114f6a3553\AndroidManifest.xml:17:5-20:19
+MERGED from [com.aliyun.dpa:oss-android-sdk:2.8.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\oss-android-sdk-2.8.3.aar\65ddb6a51d1344129d61b1114f6a3553\AndroidManifest.xml:17:5-20:19
+MERGED from [com.github.niorgai:StatusBarCompat:2.1.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\StatusBarCompat-2.1.4.aar\cf4ea890e9e0f18a102650fba7fe49b2\AndroidManifest.xml:11:5-15:19
+MERGED from [com.github.niorgai:StatusBarCompat:2.1.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\StatusBarCompat-2.1.4.aar\cf4ea890e9e0f18a102650fba7fe49b2\AndroidManifest.xml:11:5-15:19
+MERGED from [com.tbruyelle.rxpermissions2:rxpermissions:0.9.5] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\rxpermissions-0.9.5.aar\e6b818eea6324977defc3aa7d682c047\AndroidManifest.xml:11:5-20
+MERGED from [com.tbruyelle.rxpermissions2:rxpermissions:0.9.5] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\rxpermissions-0.9.5.aar\e6b818eea6324977defc3aa7d682c047\AndroidManifest.xml:11:5-20
+MERGED from [:zbar-release:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zbar-release.aar\3637363228209334375f9c75b8779a01\AndroidManifest.xml:37:5-41:19
+MERGED from [:zbar-release:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zbar-release.aar\3637363228209334375f9c75b8779a01\AndroidManifest.xml:37:5-41:19
+MERGED from [:PhotoPicker-release:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\PhotoPicker-release.aar\7535579d7d104c281f19408447f87050\AndroidManifest.xml:13:5-23:19
+MERGED from [:PhotoPicker-release:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\PhotoPicker-release.aar\7535579d7d104c281f19408447f87050\AndroidManifest.xml:13:5-23:19
+MERGED from [com.liulishuo.filedownloader:library:1.6.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\library-1.6.9.aar\18c27616147020d35f3ca6e58ecb2e2a\AndroidManifest.xml:11:5-16:19
+MERGED from [com.liulishuo.filedownloader:library:1.6.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\library-1.6.9.aar\18c27616147020d35f3ca6e58ecb2e2a\AndroidManifest.xml:11:5-16:19
+MERGED from [com.scwang.smartrefresh:SmartRefreshLayout:1.0.5.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\SmartRefreshLayout-1.0.5.1.aar\84d60cbeae82b79518d8d3b645647bfc\AndroidManifest.xml:11:5-15:19
+MERGED from [com.scwang.smartrefresh:SmartRefreshLayout:1.0.5.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\SmartRefreshLayout-1.0.5.1.aar\84d60cbeae82b79518d8d3b645647bfc\AndroidManifest.xml:11:5-15:19
+MERGED from [com.scwang.smartrefresh:SmartRefreshHeader:1.0.5.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\SmartRefreshHeader-1.0.5.1.aar\dda53d11083ce54dae4f0a1fdfea58b0\AndroidManifest.xml:11:5-15:19
+MERGED from [com.scwang.smartrefresh:SmartRefreshHeader:1.0.5.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\SmartRefreshHeader-1.0.5.1.aar\dda53d11083ce54dae4f0a1fdfea58b0\AndroidManifest.xml:11:5-15:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\0d6c448d09987162d5d1d48f2ab8df2e\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\0d6c448d09987162d5d1d48f2ab8df2e\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\3361da3d24cb7f0b9cd2c5e71fb2a316\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\3361da3d24cb7f0b9cd2c5e71fb2a316\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\729ab17799f2be68bdf49551d4a34775\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\729ab17799f2be68bdf49551d4a34775\AndroidManifest.xml:25:5-29:19
+	android:supportsRtl
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:60:9-35
+	android:label
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:59:9-41
+	android:debuggable
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:57:9-35
+	tools:ignore
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:62:9-42
+	android:allowBackup
+		ADDED from [com.aliyun.dpa:oss-android-sdk:2.8.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\oss-android-sdk-2.8.3.aar\65ddb6a51d1344129d61b1114f6a3553\AndroidManifest.xml:18:9-35
+	android:icon
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:58:9-42
+	android:theme
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:61:9-44
+	android:name
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:56:9-41
+meta-data#com.amap.api.v2.apikey
+ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:65:9-67:64
+	android:value
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:67:13-61
+	android:name
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:66:13-50
+meta-data#UMENG_APPKEY
+ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:73:9-75:56
+	android:value
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:75:13-53
+	android:name
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:74:13-40
+meta-data#BaiduMobAd_APP_ID
+ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:89:9-91:40
+	android:value
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:91:13-37
+	android:name
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:90:13-45
+meta-data#BUGLY_ENABLE_DEBUG
+ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:93:9-95:36
+	android:value
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:95:13-33
+	android:name
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:94:13-46
+activity#com.shareshow.aide.activity.WelcomeActivity
+ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:100:9-110:20
+	android:screenOrientation
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:103:13-49
+	android:launchMode
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:102:13-43
+	android:theme
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:104:13-44
+	android:name
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:101:13-71
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:105:13-109:29
+action#android.intent.action.MAIN
+ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:106:17-69
+	android:name
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:106:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:108:17-77
+	android:name
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:108:27-74
+activity#com.shareshow.aide.activity.MainActivity
+ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:112:9-117:15
+	android:screenOrientation
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:115:13-49
+	android:launchMode
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:114:13-43
+	android:windowSoftInputMode
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:116:13-64
+	android:name
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:113:13-50
+activity#com.shareshow.aide.activity.NotificationActivity
+ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:118:9-121:52
+	android:screenOrientation
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:121:13-49
+	android:launchMode
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:120:13-43
+	android:name
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:119:13-76
+activity#com.shareshow.aide.activity.NearbyActivity
+ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:122:9-125:52
+	android:screenOrientation
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:125:13-49
+	android:launchMode
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:124:13-43
+	android:name
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:123:13-70
+activity#com.shareshow.aide.activity.VisitTrackListActivity
+ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:131:9-133:52
+	android:screenOrientation
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:133:13-49
+	android:name
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:132:13-78
+service#com.amap.api.location.APSService
+ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:135:9-68
+	android:name
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:135:18-65
+service#com.shareshow.aide.service.NettyService
+ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:147:9-57
+	android:name
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:147:18-54
+activity#com.shareshow.airpc.activity.ScreenShareActivity
+ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:149:9-154:55
+	android:screenOrientation
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:153:13-49
+	android:launchMode
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:152:13-43
+	android:windowSoftInputMode
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:154:13-52
+	android:configChanges
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:151:13-74
+	android:name
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:150:13-76
+activity#com.shareshow.airpc.activity.ControlActivity
+ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:155:9-157:52
+	android:screenOrientation
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:157:13-49
+	android:name
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:156:13-72
+activity#com.shareshow.airpc.activity.RemouteFileShareActivity
+ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:159:9-161:52
+	android:screenOrientation
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:161:13-49
+	android:name
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:160:13-81
+activity#com.shareshow.aide.activity.LoginActivity
+ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:163:9-166:52
+	android:screenOrientation
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:166:13-49
+	android:launchMode
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:165:13-44
+	android:name
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:164:13-69
+activity#com.shareshow.aide.activity.ReadVisitRecordActivity
+ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:168:9-171:52
+	android:screenOrientation
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:171:13-49
+	android:launchMode
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:170:13-43
+	android:name
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:169:13-61
+activity#com.shareshow.airpc.activity.AboutActivity
+ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:174:9-176:52
+	android:screenOrientation
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:176:13-49
+	android:name
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:175:13-70
+activity#com.shareshow.airpc.activity.FileShareActivity
+ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:177:9-179:52
+	android:screenOrientation
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:179:13-49
+	android:name
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:178:13-74
+activity#com.shareshow.airpc.activity.QuiteFileActivity
+ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:181:9-183:52
+	android:screenOrientation
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:183:13-49
+	android:name
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:182:13-74
+activity#com.shareshow.airpc.activity.DocumentAndOtherActivity
+ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:185:9-187:52
+	android:screenOrientation
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:187:13-49
+	android:name
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:186:13-81
+activity#com.shareshow.airpc.activity.AlbumNameActivity
+ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:188:9-190:52
+	android:screenOrientation
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:190:13-49
+	android:name
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:189:13-74
+activity#com.shareshow.airpc.activity.AlbumAndVideoFileActivity
+ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:191:9-193:52
+	android:screenOrientation
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:193:13-49
+	android:name
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:192:13-82
+activity#com.shareshow.airpc.activity.DownLoadFileActivity
+ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:194:9-196:52
+	android:screenOrientation
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:196:13-49
+	android:name
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:195:13-77
+activity#com.shareshow.airpc.activity.LocalPhotoScanActivity
+ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:197:9-199:52
+	android:screenOrientation
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:199:13-49
+	android:name
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:198:13-79
+activity#com.shareshow.airpc.activity.BoxPhotoScanActivity
+ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:200:9-202:52
+	android:screenOrientation
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:202:13-49
+	android:name
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:201:13-77
+service#com.shareshow.airpc.activity.HeartBeatServer
+ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:204:9-206:77
+	android:configChanges
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:206:13-74
+	android:name
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:205:13-72
+service#com.shareshow.aide.service.PlayService
+ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:208:9-55
+	android:name
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:208:18-53
+service#com.shareshow.aide.service.HeartBeatServer
+ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:208:63-209:77
+	android:configChanges
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:209:13-74
+	android:name
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:208:74-131
+activity#com.shareshow.aide.wxapi.WXEntryActivity
+ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:211:9-214:48
+	android:label
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:214:13-45
+	android:exported
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:213:13-36
+	android:name
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:212:13-50
+activity#com.tencent.tauth.AuthActivity
+ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:216:9-228:20
+	android:launchMode
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:218:13-44
+	android:noHistory
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:219:13-37
+	android:name
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:217:13-58
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:220:13-227:29
+action#android.intent.action.VIEW
+ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:221:17-69
+	android:name
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:221:25-66
+category#android.intent.category.DEFAULT
+ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:223:17-76
+	android:name
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:223:27-73
+category#android.intent.category.BROWSABLE
+ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:224:17-78
+	android:name
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:224:27-75
+data
+ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:226:17-60
+	android:scheme
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:226:23-57
+activity#com.tencent.connect.common.AssistActivity
+ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:230:9-233:75
+	android:configChanges
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:232:13-74
+	android:theme
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:233:13-72
+	android:name
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:231:13-69
+service#com.shareshow.airpc.ftpserver.FTPServerService
+ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:236:9-82
+	android:name
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:236:18-79
+activity#com.shareshow.aide.activity.MoreScreenActivity
+ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:238:9-241:51
+	android:screenOrientation
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:241:13-49
+	android:launchMode
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:240:13-43
+	android:name
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:239:13-56
+activity#com.shareshow.aide.activity.PersonAudioActivity
+ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:242:9-244:52
+	android:screenOrientation
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:244:13-49
+	android:name
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:243:13-57
+activity#com.shareshow.airpc.activity.SettingActivity
+ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:246:9-248:52
+	android:screenOrientation
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:248:13-49
+	android:name
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:247:13-72
+activity#com.shareshow.airpc.activity.ProposeActivity
+ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:250:9-252:52
+	android:screenOrientation
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:252:13-49
+	android:name
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:251:13-72
+service#com.shareshow.airpc.float_window.FloatWindowService
+ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:254:9-87
+	android:name
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:254:18-84
+service#com.shareshow.airpc.share.SearchDeviceService
+ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:256:9-81
+	android:name
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:256:18-78
+service#com.shareshow.InitializeService
+ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:258:9-67
+	android:name
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:258:18-64
+activity#com.shareshow.airpc.activity.ShareActivity
+ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:260:9-281:20
+	android:screenOrientation
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:263:13-49
+	android:label
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:262:13-45
+	android:windowSoftInputMode
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:264:13-52
+	android:name
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:261:13-70
+activity#com.shareshow.aide.activity.PreviewImageActivity
+ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:283:9-286:52
+	android:screenOrientation
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:286:13-49
+	android:launchMode
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:285:13-48
+	android:name
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:284:13-58
+activity#com.shareshow.aide.activity.TeamMenberActivity
+ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:288:9-291:52
+	android:screenOrientation
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:291:13-49
+	android:launchMode
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:290:13-44
+	android:name
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:289:13-56
+activity#com.shareshow.airpc.activity.UserHelpActivity
+ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:293:9-296:52
+	android:screenOrientation
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:296:13-49
+	android:launchMode
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:295:13-44
+	android:name
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:294:13-73
+service#com.shareshow.aide.service.TimerService
+ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:298:9-57
+	android:name
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:298:18-54
+service#com.shareshow.aide.service.AudioRecordService
+ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:299:9-62
+	android:name
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:299:18-60
+activity#com.shareshow.airpc.activity.LoadingHelpActivity
+ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:302:9-85
+	android:name
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:302:19-82
+activity#me.iwf.photopicker.PhotoPickerActivity
+ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:304:9-307:52
+	android:launchMode
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:306:13-44
+	android:theme
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:307:13-49
+	android:name
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:305:13-66
+activity#me.iwf.photopicker.PhotoPagerActivity
+ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:308:9-311:52
+	android:launchMode
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:310:13-44
+	android:theme
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:311:13-49
+	android:name
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:309:13-65
+activity#com.xcg.ScanActivity
+ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:312:9-315:52
+	android:screenOrientation
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:315:13-49
+	android:launchMode
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:314:13-48
+	android:name
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:313:13-48
+activity#com.xcg.ScanActivity1
+ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:316:9-319:52
+	android:screenOrientation
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:319:13-49
+	android:launchMode
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:318:13-44
+	android:name
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:317:13-49
+activity#com.baidu.mobads.AppActivity
+ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:321:9-324:75
+	android:configChanges
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:323:13-72
+	android:theme
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:324:13-72
+	android:name
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:322:13-56
+activity#com.shareshow.aide.activity.VisitRecordFilterActivity
+ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:326:9-329:52
+	android:screenOrientation
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:329:13-49
+	android:launchMode
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:328:13-44
+	android:name
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:327:13-63
+activity#com.shareshow.aide.activity.DeptMemberActivity
+ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:330:9-333:52
+	android:screenOrientation
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:333:13-49
+	android:launchMode
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:332:13-44
+	android:name
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:331:13-56
+activity#com.shareshow.aide.activity.OpenNotifcationActivity
+ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:335:9-338:52
+	android:screenOrientation
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:338:13-49
+	android:launchMode
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:337:13-44
+	android:name
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:336:13-61
+activity#com.shareshow.aide.activity.UserSettingActivity
+ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:340:9-343:52
+	android:screenOrientation
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:343:13-49
+	android:launchMode
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:342:13-44
+	android:name
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:341:13-57
+activity#com.shareshow.aide.activity.UpdatePhoneActivity
+ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:344:9-347:52
+	android:screenOrientation
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:347:13-49
+	android:launchMode
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:346:13-44
+	android:name
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:345:13-57
+activity#com.shareshow.aide.activity.VisitCommitActivity
+ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:349:9-353:52
+	android:screenOrientation
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:353:13-49
+	android:launchMode
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:351:13-44
+	android:windowSoftInputMode
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:352:13-52
+	android:name
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:350:13-57
+service#com.shareshow.aide.service.VisitAudioService
+ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:354:9-61
+	android:name
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:354:18-59
+service#com.shareshow.aide.service.AudioService
+ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:366:9-57
+	android:name
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:366:18-54
+receiver#com.shareshow.aide.broadcast.NetworkBroadcast
+ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:368:9-372:20
+	android:name
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:368:19-61
+intent-filter#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:369:13-371:29
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:370:17-79
+	android:name
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:370:25-76
+uses-sdk
+INJECTED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml
+INJECTED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:multidex:1.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\878b953e70fbfc63d47ed0d1f90a8fb8\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\878b953e70fbfc63d47ed0d1f90a8fb8\AndroidManifest.xml:20:5-43
+MERGED from [org.xutils:xutils:3.5.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\xutils-3.5.0.aar\a74f7f9513c143a3c006091538766014\AndroidManifest.xml:8:5-10:41
+MERGED from [org.xutils:xutils:3.5.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\xutils-3.5.0.aar\a74f7f9513c143a3c006091538766014\AndroidManifest.xml:8:5-10:41
+MERGED from [com.gongwen:marqueelibrary:1.1.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\marqueelibrary-1.1.3.aar\a7a207eff9d1168d82ef03fe023c8880\AndroidManifest.xml:8:5-10:41
+MERGED from [com.gongwen:marqueelibrary:1.1.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\marqueelibrary-1.1.3.aar\a7a207eff9d1168d82ef03fe023c8880\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:design:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\48a97fd65a4a3a26648a89433c394115\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\48a97fd65a4a3a26648a89433c394115\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\56a7978d8b45b583c3a8b49be0c962d3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\56a7978d8b45b583c3a8b49be0c962d3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\35a4a565c2dde8b030cd709f16da9e7b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\35a4a565c2dde8b030cd709f16da9e7b\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\play-services-appindexing-8.4.0.aar\bfbca9001564a51edafc2200491f85bb\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\play-services-appindexing-8.4.0.aar\bfbca9001564a51edafc2200491f85bb\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.4.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\play-services-base-8.4.0.aar\f86348ef355700d72991c1625233e892\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.4.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\play-services-base-8.4.0.aar\f86348ef355700d72991c1625233e892\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\play-services-basement-8.4.0.aar\235d87829645909361ef0600ca5fadb6\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\play-services-basement-8.4.0.aar\235d87829645909361ef0600ca5fadb6\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\489b15c6fcfc9f475de4bd112ad6b58b\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\489b15c6fcfc9f475de4bd112ad6b58b\AndroidManifest.xml:21:5-23:54
+MERGED from [com.jakewharton:butterknife:8.8.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\butterknife-8.8.1.aar\0d571ad398f30cf5e96ded190201df62\AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton:butterknife:8.8.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\butterknife-8.8.1.aar\0d571ad398f30cf5e96ded190201df62\AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton.rxbinding2:rxbinding:2.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\rxbinding-2.0.0.aar\14d7bc38b36371f76335e546a1b60fe9\AndroidManifest.xml:6:5-44
+MERGED from [com.jakewharton.rxbinding2:rxbinding:2.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\rxbinding-2.0.0.aar\14d7bc38b36371f76335e546a1b60fe9\AndroidManifest.xml:6:5-44
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\rxandroid-2.0.1.aar\3c354bb28128cfa528247870ffcd07b0\AndroidManifest.xml:19:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\rxandroid-2.0.1.aar\3c354bb28128cfa528247870ffcd07b0\AndroidManifest.xml:19:5-43
+MERGED from [com.aliyun.dpa:oss-android-sdk:2.8.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\oss-android-sdk-2.8.3.aar\65ddb6a51d1344129d61b1114f6a3553\AndroidManifest.xml:7:5-9:41
+MERGED from [com.aliyun.dpa:oss-android-sdk:2.8.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\oss-android-sdk-2.8.3.aar\65ddb6a51d1344129d61b1114f6a3553\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.zhaokaiqiang.klog:library:1.6.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\library-1.6.0.aar\942c66a920d9577e419dc7785983f4bd\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.zhaokaiqiang.klog:library:1.6.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\library-1.6.0.aar\942c66a920d9577e419dc7785983f4bd\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.niorgai:StatusBarCompat:2.1.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\StatusBarCompat-2.1.4.aar\cf4ea890e9e0f18a102650fba7fe49b2\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.niorgai:StatusBarCompat:2.1.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\StatusBarCompat-2.1.4.aar\cf4ea890e9e0f18a102650fba7fe49b2\AndroidManifest.xml:7:5-9:41
+MERGED from [com.tbruyelle.rxpermissions2:rxpermissions:0.9.5] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\rxpermissions-0.9.5.aar\e6b818eea6324977defc3aa7d682c047\AndroidManifest.xml:7:5-9:41
+MERGED from [com.tbruyelle.rxpermissions2:rxpermissions:0.9.5] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\rxpermissions-0.9.5.aar\e6b818eea6324977defc3aa7d682c047\AndroidManifest.xml:7:5-9:41
+MERGED from [:zbar-release:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zbar-release.aar\3637363228209334375f9c75b8779a01\AndroidManifest.xml:7:5-9:41
+MERGED from [:zbar-release:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zbar-release.aar\3637363228209334375f9c75b8779a01\AndroidManifest.xml:7:5-9:41
+MERGED from [:PhotoPicker-release:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\PhotoPicker-release.aar\7535579d7d104c281f19408447f87050\AndroidManifest.xml:5:5-7:41
+MERGED from [:PhotoPicker-release:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\PhotoPicker-release.aar\7535579d7d104c281f19408447f87050\AndroidManifest.xml:5:5-7:41
+MERGED from [com.tencent.bugly:crashreport:2.6.6.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\crashreport-2.6.6.1.aar\e2dd8db306275ddf6c90997c571f5d4a\AndroidManifest.xml:5:5-7:41
+MERGED from [com.tencent.bugly:crashreport:2.6.6.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\crashreport-2.6.6.1.aar\e2dd8db306275ddf6c90997c571f5d4a\AndroidManifest.xml:5:5-7:41
+MERGED from [com.tencent.bugly:nativecrashreport:3.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\nativecrashreport-3.3.1.aar\1ef0f1d1fa25196bd0fa19240608b5dd\AndroidManifest.xml:5:5-7:41
+MERGED from [com.tencent.bugly:nativecrashreport:3.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\nativecrashreport-3.3.1.aar\1ef0f1d1fa25196bd0fa19240608b5dd\AndroidManifest.xml:5:5-7:41
+MERGED from [com.contrarywind:Android-PickerView:3.2.7] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\Android-PickerView-3.2.7.aar\4253784c2498920529e1932b2f4fe28b\AndroidManifest.xml:7:5-9:41
+MERGED from [com.contrarywind:Android-PickerView:3.2.7] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\Android-PickerView-3.2.7.aar\4253784c2498920529e1932b2f4fe28b\AndroidManifest.xml:7:5-9:41
+MERGED from [com.liulishuo.filedownloader:library:1.6.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\library-1.6.9.aar\18c27616147020d35f3ca6e58ecb2e2a\AndroidManifest.xml:7:5-9:41
+MERGED from [com.liulishuo.filedownloader:library:1.6.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\library-1.6.9.aar\18c27616147020d35f3ca6e58ecb2e2a\AndroidManifest.xml:7:5-9:41
+MERGED from [com.scwang.smartrefresh:SmartRefreshLayout:1.0.5.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\SmartRefreshLayout-1.0.5.1.aar\84d60cbeae82b79518d8d3b645647bfc\AndroidManifest.xml:7:5-9:41
+MERGED from [com.scwang.smartrefresh:SmartRefreshLayout:1.0.5.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\SmartRefreshLayout-1.0.5.1.aar\84d60cbeae82b79518d8d3b645647bfc\AndroidManifest.xml:7:5-9:41
+MERGED from [com.scwang.smartrefresh:SmartRefreshHeader:1.0.5.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\SmartRefreshHeader-1.0.5.1.aar\dda53d11083ce54dae4f0a1fdfea58b0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.scwang.smartrefresh:SmartRefreshHeader:1.0.5.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\SmartRefreshHeader-1.0.5.1.aar\dda53d11083ce54dae4f0a1fdfea58b0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\0d6c448d09987162d5d1d48f2ab8df2e\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\0d6c448d09987162d5d1d48f2ab8df2e\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\3361da3d24cb7f0b9cd2c5e71fb2a316\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\3361da3d24cb7f0b9cd2c5e71fb2a316\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\729ab17799f2be68bdf49551d4a34775\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\729ab17799f2be68bdf49551d4a34775\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\fe3e3d6d1c883cb78b60fcd4a708327d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\fe3e3d6d1c883cb78b60fcd4a708327d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\8eb8abedc61b1e5e7c7a3a34277b0412\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\8eb8abedc61b1e5e7c7a3a34277b0412\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\7fecfe03f57cc993286feb8b61a204ba\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\7fecfe03f57cc993286feb8b61a204ba\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\39663cb9b71d54f657cdc56b81410eb8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\39663cb9b71d54f657cdc56b81410eb8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\40f45dfae061067881fbd5ba03ca92fb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\40f45dfae061067881fbd5ba03ca92fb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\3b3c61b974f8b005f7b493982dad309c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\3b3c61b974f8b005f7b493982dad309c\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\5d7b1bf7f8c877ef8d241f881af83832\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\5d7b1bf7f8c877ef8d241f881af83832\AndroidManifest.xml:20:5-22:41
+INJECTED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml
+INJECTED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\48a97fd65a4a3a26648a89433c394115\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml
+		INJECTED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml
+		INJECTED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:142:13-144:54
+	android:resource
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:144:17-51
+	android:name
+		ADDED from D:\BaiduNetdiskDownload\qm\qm\qm\app\src\main\AndroidManifest.xml:143:17-67
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\48a97fd65a4a3a26648a89433c394115\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:transition:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\35a4a565c2dde8b030cd709f16da9e7b\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\35a4a565c2dde8b030cd709f16da9e7b\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\489b15c6fcfc9f475de4bd112ad6b58b\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\489b15c6fcfc9f475de4bd112ad6b58b\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\3361da3d24cb7f0b9cd2c5e71fb2a316\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\3361da3d24cb7f0b9cd2c5e71fb2a316\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\729ab17799f2be68bdf49551d4a34775\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\729ab17799f2be68bdf49551d4a34775\AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:design:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\48a97fd65a4a3a26648a89433c394115\AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:design:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\48a97fd65a4a3a26648a89433c394115\AndroidManifest.xml:27:13-51
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\play-services-basement-8.4.0.aar\235d87829645909361ef0600ca5fadb6\AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\play-services-basement-8.4.0.aar\235d87829645909361ef0600ca5fadb6\AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\play-services-basement-8.4.0.aar\235d87829645909361ef0600ca5fadb6\AndroidManifest.xml:22:13-58
+uses-permission#android.permission.FLASHLIGHT
+ADDED from [:zbar-release:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zbar-release.aar\3637363228209334375f9c75b8779a01\AndroidManifest.xml:13:5-69
+	android:name
+		ADDED from [:zbar-release:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zbar-release.aar\3637363228209334375f9c75b8779a01\AndroidManifest.xml:13:22-66
+uses-feature#android.hardware.camera
+ADDED from [:zbar-release:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zbar-release.aar\3637363228209334375f9c75b8779a01\AndroidManifest.xml:15:5-60
+	android:name
+		ADDED from [:zbar-release:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zbar-release.aar\3637363228209334375f9c75b8779a01\AndroidManifest.xml:15:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from [:zbar-release:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zbar-release.aar\3637363228209334375f9c75b8779a01\AndroidManifest.xml:16:5-70
+	android:name
+		ADDED from [:zbar-release:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zbar-release.aar\3637363228209334375f9c75b8779a01\AndroidManifest.xml:16:19-67
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from [:zbar-release:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zbar-release.aar\3637363228209334375f9c75b8779a01\AndroidManifest.xml:18:5-79
+	android:name
+		ADDED from [:zbar-release:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zbar-release.aar\3637363228209334375f9c75b8779a01\AndroidManifest.xml:18:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [:zbar-release:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zbar-release.aar\3637363228209334375f9c75b8779a01\AndroidManifest.xml:22:5-68
+	android:name
+		ADDED from [:zbar-release:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zbar-release.aar\3637363228209334375f9c75b8779a01\AndroidManifest.xml:22:22-65
+uses-permission#android.permission.CALL_PHONE
+ADDED from [:zbar-release:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zbar-release.aar\3637363228209334375f9c75b8779a01\AndroidManifest.xml:34:5-69
+	android:name
+		ADDED from [:zbar-release:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zbar-release.aar\3637363228209334375f9c75b8779a01\AndroidManifest.xml:34:22-66
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from [:zbar-release:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zbar-release.aar\3637363228209334375f9c75b8779a01\AndroidManifest.xml:35:5-78
+	android:name
+		ADDED from [:zbar-release:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zbar-release.aar\3637363228209334375f9c75b8779a01\AndroidManifest.xml:35:22-75
+provider#me.iwf.photopicker.utils.PhotoFileProvider
+ADDED from [:PhotoPicker-release:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\PhotoPicker-release.aar\7535579d7d104c281f19408447f87050\AndroidManifest.xml:14:9-22:20
+	android:grantUriPermissions
+		ADDED from [:PhotoPicker-release:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\PhotoPicker-release.aar\7535579d7d104c281f19408447f87050\AndroidManifest.xml:18:13-47
+	android:authorities
+		ADDED from [:PhotoPicker-release:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\PhotoPicker-release.aar\7535579d7d104c281f19408447f87050\AndroidManifest.xml:16:13-60
+	android:exported
+		ADDED from [:PhotoPicker-release:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\PhotoPicker-release.aar\7535579d7d104c281f19408447f87050\AndroidManifest.xml:17:13-37
+	android:name
+		ADDED from [:PhotoPicker-release:] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\PhotoPicker-release.aar\7535579d7d104c281f19408447f87050\AndroidManifest.xml:15:13-70
+service#com.liulishuo.filedownloader.services.FileDownloadService$SharedMainProcessService
+ADDED from [com.liulishuo.filedownloader:library:1.6.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\library-1.6.9.aar\18c27616147020d35f3ca6e58ecb2e2a\AndroidManifest.xml:12:9-118
+	android:name
+		ADDED from [com.liulishuo.filedownloader:library:1.6.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\library-1.6.9.aar\18c27616147020d35f3ca6e58ecb2e2a\AndroidManifest.xml:12:18-115
+service#com.liulishuo.filedownloader.services.FileDownloadService$SeparateProcessService
+ADDED from [com.liulishuo.filedownloader:library:1.6.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\library-1.6.9.aar\18c27616147020d35f3ca6e58ecb2e2a\AndroidManifest.xml:13:9-15:49
+	android:process
+		ADDED from [com.liulishuo.filedownloader:library:1.6.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\library-1.6.9.aar\18c27616147020d35f3ca6e58ecb2e2a\AndroidManifest.xml:15:13-46
+	android:name
+		ADDED from [com.liulishuo.filedownloader:library:1.6.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\library-1.6.9.aar\18c27616147020d35f3ca6e58ecb2e2a\AndroidManifest.xml:14:13-108

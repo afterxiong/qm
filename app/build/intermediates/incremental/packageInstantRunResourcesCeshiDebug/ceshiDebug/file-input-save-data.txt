@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Fri Apr 27 15:02:07 CST 2018
+0.baseType=DIRECTORY
+0.base=G\:\\developer\\Y2018\\qmShareShow3.0.4\\app\\build\\intermediates\\assets\\ceshi\\debug
+0.path=filedownloader.properties
+0.set=ASSET
+count=1

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_weight="1"
+        android:drawableTop="@drawable/botton_interact_selector"
+        android:gravity="center"
+        android:padding="2dp"
+        android:text="多屏互动"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_weight="1"
+        android:drawableTop="@drawable/botton_product_selector"
+        android:gravity="center"
+        android:padding="2dp"
+        android:text="产品资料"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_weight="1"
+        android:drawableTop="@drawable/botton_record_selector"
+        android:gravity="center"
+        android:padding="2dp"
+        android:text="晨会录音"
+        android:textSize="16sp" />
+</LinearLayout>

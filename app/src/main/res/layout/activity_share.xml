@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:wheel="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background"
+        android:orientation="vertical"
+       >
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?android:actionBarSize"
+        android:background="@color/colorPrimary">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:gravity="center"
+            android:onClick="back"
+            android:drawablePadding="8dp"
+            android:textSize="16sp"
+            android:text="@string/cancel"
+            android:id="@+id/share_back"
+            />
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:text="@string/sharescreen_share"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+    </android.support.v7.widget.Toolbar>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/share_file"
+                    android:layout_marginLeft="@dimen/xt10dp"
+                    android:layout_marginBottom="@dimen/xt10dp"
+                    android:textSize="@dimen/xt16sp"
+                    android:textColor="@color/black"/>
+
+                <android.support.v7.widget.RecyclerView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/file_recyclerView"
+                    android:visibility="visible">
+                </android.support.v7.widget.RecyclerView>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/xt10dp"
+                    android:background="@color/middle_back"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="3"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginTop="@dimen/xt5dp"
+                    android:text="@string/share_friend"
+                    android:layout_marginLeft="@dimen/xt10dp"
+                    android:layout_marginBottom="@dimen/xt10dp"
+                    android:textSize="@dimen/xt16sp"
+                    android:textColor="@color/black"/>
+                  <TextView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_marginLeft="@dimen/xt5dp"
+                      android:id="@+id/mode"
+                      android:layout_marginTop="@dimen/xt5dp"
+                      android:text="(扫码连接)"
+                      android:textColor="@color/black"
+                      android:textSize="@dimen/xt12sp"/>
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent">
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginRight="@dimen/xt5dp"
+                            android:id="@+id/search"
+                            android:gravity="center">
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@mipmap/search_click"
+                                android:id="@+id/search_img"
+                                android:layout_marginRight="@dimen/xt5dp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/search_text"
+                                android:text="自动搜索"
+                                android:textColor="@color/colorPrimary"
+                                android:textSize="@dimen/xt16sp"
+                                />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal"
+                            android:layout_toLeftOf="@+id/search"
+                            android:layout_marginRight="@dimen/xt10dp"
+                            android:id="@+id/sancode"
+                            android:gravity="center">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@mipmap/code_none"
+                                android:id="@+id/scanCode_img"
+                                android:layout_marginRight="@dimen/xt5dp"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="扫码连接"
+                                android:id="@+id/scanCode_text"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/xt16sp"
+                                />
+
+                        </LinearLayout>
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="270dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <com.xcg.helper.LoadingView
+                        android:id="@+id/loading"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:visibility="gone"
+                        android:layout_centerInParent="true" />
+
+
+
+                    <!--<RelativeLayout-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:visibility="gone"-->
+                        <!--android:id="@+id/wifi">-->
+
+                    <!--<LinearLayout-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="match_parent"-->
+                        <!--android:gravity="center"-->
+                        <!--android:orientation="vertical">-->
+                        <!--<ImageView-->
+                            <!--android:layout_width="@dimen/xt120dp"-->
+                            <!--android:layout_height="@dimen/xt120dp"-->
+                            <!--android:src="@mipmap/no_box_emotion"-->
+                            <!--android:layout_marginBottom="@dimen/xt10dp"/>-->
+
+                    <!--<LinearLayout-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:orientation="horizontal"-->
+                        <!--android:gravity="center"-->
+                        <!--&gt;-->
+                        <!--<TextView-->
+                            <!--android:layout_width="wrap_content"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:text="网络名称:"-->
+                            <!--android:textColor="@color/black"-->
+                            <!--android:layout_marginRight="@dimen/xt5dp"-->
+                             <!--/>-->
+                        <!--<TextView-->
+                            <!--android:layout_width="wrap_content"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:text="网费拿来"-->
+                            <!--android:id="@+id/wifiname"-->
+                            <!--android:textColor="@color/black"/>-->
+                    <!--</LinearLayout>-->
+                    <!--<TextView-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="1dp"-->
+                        <!--android:background="@color/middle_back"-->
+                        <!--android:layout_margin="@dimen/xt5dp"/>-->
+                    <!--<LinearLayout-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:orientation="horizontal"-->
+                        <!--android:gravity="center"-->
+                        <!--android:id="@+id/wifipsw"-->
+                        <!--&gt;-->
+                        <!--<TextView-->
+                            <!--android:layout_width="wrap_content"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:text="网络密码:"-->
+                            <!--android:textColor="@color/black"-->
+                            <!--android:layout_marginRight="@dimen/xt5dp"/>-->
+                        <!--<TextView-->
+                            <!--android:layout_width="wrap_content"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:text="12345678"-->
+                            <!--android:id="@+id/password"-->
+                            <!--android:textColor="@color/black"/>-->
+                    <!--</LinearLayout>-->
+                        <!--<TextView-->
+                            <!--android:layout_width="match_parent"-->
+                            <!--android:layout_height="1dp"-->
+                            <!--android:background="@color/middle_back"-->
+                            <!--android:id="@+id/wifipsw_line"-->
+                            <!--android:layout_margin="@dimen/xt5dp"-->
+                            <!--/>-->
+                    <!--</LinearLayout>-->
+                    <!--</RelativeLayout>-->
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:id="@+id/friend_list"
+                        android:visibility="visible"
+                        >
+
+                        <TextView
+                            android:id="@+id/nobox"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:visibility="gone"
+                            android:layout_centerInParent="true"
+                            android:textColor="@color/xt_white"
+                            android:textSize="@dimen/xt15sp" />
+
+                    <com.shareshow.airpc.widget.ProgressWheel
+                        android:id="@+id/progress_wheel"
+                        android:layout_width="@dimen/xt100dp"
+                        android:layout_height="@dimen/xt100dp"
+                        android:layout_centerHorizontal="true"
+                        android:visibility="visible"
+                        wheel:matProg_barColor="@color/xt00ab9c"
+                        wheel:matProg_progressIndeterminate="true" />
+
+                        <android.support.v4.widget.SwipeRefreshLayout
+                            android:id="@+id/swipe_refresh"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                         >
+                    <android.support.v7.widget.RecyclerView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/friend_recyclerView"
+                    android:visibility="gone">
+                    </android.support.v7.widget.RecyclerView>
+                        </android.support.v4.widget.SwipeRefreshLayout>
+                    </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:layout_marginBottom="@dimen/xt10dp"
+                    android:gravity="center"
+                    android:id="@+id/friend_send"
+                    android:visibility="visible"
+                    android:orientation="vertical">
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:id="@+id/scan"
+                            android:textColor="@color/gray_line"
+                            android:background="@mipmap/scan"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/xt50dp"
+                            android:gravity="center"
+                            android:layout_marginTop="@dimen/xt100dp"
+                            android:visibility="gone"/>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/file_send_drawable"
+                            android:id="@+id/file_send"
+                            android:layout_marginTop="10dp"
+                            android:gravity="center"
+                            android:visibility="visible"
+                            android:orientation="horizontal">
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="30dp"
+                                android:layout_marginRight="10dp"
+                                android:src="@mipmap/friend"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/white"
+                                android:layout_marginRight="30dp"
+                                android:textSize="14sp"
+                                android:text="@string/share_send"/>
+                        </LinearLayout>
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/xt10dp"
+                    android:background="@color/middle_back"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                android:text="@string/shareToshareFile"
+                android:layout_marginLeft="@dimen/xt10dp"
+                android:layout_marginBottom="@dimen/xt10dp"
+                android:textSize="@dimen/xt16sp"
+                android:id="@+id/share_text"
+                android:textColor="@color/black"/>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+                      <LinearLayout
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:background="@drawable/file_send_drawable"
+                          android:id="@+id/file_share"
+                          android:gravity="center"
+                          android:layout_centerInParent="true"
+                          android:orientation="horizontal">
+
+                          <ImageView
+                              android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:layout_marginLeft="30dp"
+                              android:layout_marginRight="10dp"
+                              android:src="@mipmap/share_friend"/>
+                          <TextView
+                              android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:textColor="@color/white"
+                              android:layout_marginRight="30dp"
+                              android:textSize="14sp"
+                              android:text="@string/share_send"/>
+
+
+                      </LinearLayout>
+
+                    </RelativeLayout>
+                 <TextView
+                    android:id="@+id/finish_text"
+                    android:visibility="gone"
+                    android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:text=""
+                     android:gravity="center"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/xt12sp"/>
+
+                </LinearLayout>
+               </LinearLayout>
+
+    </LinearLayout>

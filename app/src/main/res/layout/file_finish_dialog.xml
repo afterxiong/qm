@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+   >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="@mipmap/send_finish_background"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="@dimen/xt5dp">
+
+        <LinearLayout
+            android:id="@+id/file_sending"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/xt10dp"
+            android:layout_marginRight="@dimen/xt10dp"
+            android:layout_marginTop="@dimen/xt10dp"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:id="@+id/send_friend"
+                android:layout_marginBottom="@dimen/xt10dp"/>
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="@style/StyleProgressBarMini1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/xt12dp"
+            android:max="0"
+            android:progress="0"
+            android:layout_marginBottom="@dimen/xt5dp"
+            />
+
+            <TextView
+                android:id="@+id/progress"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="0/0"
+                android:textColor="@color/black"
+                android:textSize="@dimen/xt15sp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="gone"
+            android:id="@+id/file_finish">
+
+    <ImageView
+        android:layout_marginTop="@dimen/xt20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/send_finish"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:text="已发送"
+        android:layout_marginBottom="@dimen/xt30dp"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/xt1dp"
+        android:background="@color/middle_back"
+        android:layout_marginLeft="@dimen/x20"
+        android:layout_marginRight="@dimen/x20"
+        android:layout_marginBottom="@dimen/y10"/>
+
+
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="返回第三方工具"
+        android:textColor="@color/middle_back"
+        android:id="@+id/back_tools"
+        android:layout_marginBottom="@dimen/xt10dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/xt1dp"
+            android:background="@color/middle_back"
+            android:layout_marginLeft="@dimen/x20"
+            android:layout_marginRight="@dimen/x20"
+            android:layout_marginBottom="@dimen/y10"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:text="留在任易屏"
+            android:layout_below="@+id/back_tools"
+            android:textColor="@color/middle_back"
+            android:id="@+id/back_app"
+            android:layout_marginBottom="@dimen/xt10dp"/>
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:maxEms="14"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:visibility="visible"
+        android:id="@+id/send_product"
+        android:layout_marginTop="@dimen/xt10dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="@dimen/xt30dp"
+            android:layout_height="@dimen/xt30dp"
+            android:id="@+id/file_send_close"
+            android:layout_alignParentRight="true"
+            android:visibility="visible">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/xt10dp"
+                android:layout_marginRight="@dimen/xt10dp"
+                android:src="@mipmap/file_recieve_dialog_close"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

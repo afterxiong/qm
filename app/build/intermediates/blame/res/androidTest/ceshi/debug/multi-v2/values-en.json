@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "G:\\developer\\Y2018\\qmShareShow3.0.4\\app\\build\\intermediates\\incremental\\mergeCeshiDebugAndroidTestResources\\merged.dir\\values-en\\values-en.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\xiongchengguang\\.gradle\\caches\\transforms-1\\files-1.1\\Android-PickerView-3.2.7.aar\\ee16fa408a96c5bd3b38ce05ad10753a\\res\\values-en\\values-en.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,108,153,200,249,296,345,399",
+                        "endColumns": "52,44,46,48,46,48,53,45",
+                        "endOffsets": "103,148,195,244,291,340,394,440"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\BaiduNetdiskDownload\\qm\\qm\\qm\\app\\build\\intermediates\\incremental\\mergeCeshiDebugAndroidTestResources\\merged.dir\\values-en\\values-en.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\Android-PickerView-3.2.7.aar\\4253784c2498920529e1932b2f4fe28b\\res\\values-en\\values-en.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,108,153,200,249,296,345,399",
+                        "endColumns": "52,44,46,48,46,48,53,45",
+                        "endOffsets": "103,148,195,244,291,340,394,440"
+                    }
+                }
+            ]
+        }
+    ]
+}

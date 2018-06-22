@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.shareshow.aide"
+    android:versionCode="4"
+    android:versionName="1.0.4" >
+
+    <uses-sdk
+        android:minSdkVersion="17"
+        android:targetSdkVersion="26" />
+
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.CAPTURE_AUDIO_OUTPUT" />
+    <!-- 录音 -->
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- 组播 -->
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+    <!-- 震动 -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <!-- 外部存储 -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <!-- 读账户 -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <!-- 读取联系人 -->
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <!-- 录音 -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <!-- 相机 -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <!-- 读设置 -->
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <!-- 读应用列表 -->
+    <uses-permission android:name="android.permission.REORDER_TASKS" />
+    <!-- 用于投屏之后停止操作，将activiy切换到前台 -->
+
+
+    <!-- 用于进行网络定位 -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <!-- 用于访问GPS定位 -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <!-- 用于获取运营商信息，用于支持提供运营商信息相关的接口 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- 用于访问wifi网络信息，wifi信息会用于进行网络定位 -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <!-- 用于获取wifi的获取权限，wifi信息会用来进行网络定位 -->
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <!-- 用于写入缓存数据到扩展存储卡 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- 用于申请调用A-GPS模块 -->
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+
+    <!-- 微信分享需要使用的权限 -->
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+
+    <application
+        android:name="com.shareshow.App"
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@mipmap/title_icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/BaseAppTheme" >
+
+        <!-- 高德 -->
+        <meta-data
+            android:name="com.amap.api.v2.apikey"
+            android:value="39dfb3d3b14f7bf8ce816efe2f225394" />
+
+        <!-- 友盟 -->
+        <!-- 58f6c7a1e88bad0455001b24 -->
+
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="5a54575fa40fa3700f00019f" />
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="ceshi" />
+        <!--
+     ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+
+
+        <!--  -->
+        <!-- <meta-data -->
+        <!-- android:name="com.google.android.gms.version" -->
+        <!-- android:value="@integer/google_play_services_version"/> -->
+
+
+        <!-- 百度广告 -->
+        <meta-data
+            android:name="BaiduMobAd_APP_ID"
+            android:value="b81bf9cb" />
+        <meta-data
+            android:name="BUGLY_ENABLE_DEBUG"
+            android:value="true" />
+        <meta-data
+            android:name="BUGLY_APP_CHANNEL"
+            android:value="ceshi" />
+
+        <activity
+            android:name="com.shareshow.aide.activity.WelcomeActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.shareshow.aide.activity.MainActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.shareshow.aide.activity.NotificationActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.shareshow.aide.activity.NearbyActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <!-- 新的个人中心 -->
+        <!-- <activity -->
+        <!-- android:name="com.shareshow.aide.activity.MineActivity" -->
+        <!-- android:launchMode="singleTask" -->
+        <!-- android:screenOrientation="portrait" /> -->
+        <activity
+            android:name="com.shareshow.aide.activity.VisitTrackListActivity"
+            android:screenOrientation="portrait" />
+
+        <service android:name="com.amap.api.location.APSService" />
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.shareshow.aide.fileProvider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <service android:name="com.shareshow.aide.service.NettyService" />
+
+        <activity
+            android:name="com.shareshow.airpc.activity.ScreenShareActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.shareshow.airpc.activity.ControlActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.shareshow.airpc.activity.RemouteFileShareActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.shareshow.aide.activity.LoginActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.shareshow.aide.activity.ReadVisitRecordActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.shareshow.airpc.activity.AboutActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.shareshow.airpc.activity.FileShareActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.shareshow.airpc.activity.QuiteFileActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.shareshow.airpc.activity.DocumentAndOtherActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.shareshow.airpc.activity.AlbumNameActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.shareshow.airpc.activity.AlbumAndVideoFileActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.shareshow.airpc.activity.DownLoadFileActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.shareshow.airpc.activity.LocalPhotoScanActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.shareshow.airpc.activity.BoxPhotoScanActivity"
+            android:screenOrientation="portrait" />
+
+        <service
+            android:name="com.shareshow.airpc.activity.HeartBeatServer"
+            android:configChanges="orientation|keyboardHidden|screenSize" />
+        <service android:name="com.shareshow.aide.service.PlayService" />
+        <service
+            android:name="com.shareshow.aide.service.HeartBeatServer"
+            android:configChanges="orientation|keyboardHidden|screenSize" />
+        <!-- 微信分享结果界面 -->
+        <activity
+            android:name="com.shareshow.aide.wxapi.WXEntryActivity"
+            android:exported="true"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.tencent.tauth.AuthActivity"
+            android:launchMode="singleTask"
+            android:noHistory="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="tencent1106645553" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.tencent.connect.common.AssistActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <service android:name="com.shareshow.airpc.ftpserver.FTPServerService" />
+
+        <activity
+            android:name="com.shareshow.aide.activity.MoreScreenActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.shareshow.aide.activity.PersonAudioActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.shareshow.airpc.activity.SettingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.shareshow.airpc.activity.ProposeActivity"
+            android:screenOrientation="portrait" />
+
+        <service android:name="com.shareshow.airpc.float_window.FloatWindowService" />
+        <service android:name="com.shareshow.airpc.share.SearchDeviceService" />
+        <service android:name="com.shareshow.InitializeService" />
+
+        <activity
+            android:name="com.shareshow.airpc.activity.ShareActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.SEND" /> -->
+
+
+            <!-- <category android:name="android.intent.category.DEFAULT" /> -->
+
+
+            <!-- <data android:mimeType="*/*" /> -->
+            <!-- </intent-filter> -->
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.SEND_MULTIPLE" /> -->
+
+
+            <!-- <category android:name="android.intent.category.DEFAULT" /> -->
+
+
+            <!-- <data android:mimeType="*/*" /> -->
+            <!-- </intent-filter> -->
+
+        </activity>
+        <activity
+            android:name="com.shareshow.aide.activity.PreviewImageActivity"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.shareshow.aide.activity.TeamMenberActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.shareshow.airpc.activity.UserHelpActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <!-- 定时提交失败的拜访记录 -->
+        <service android:name="com.shareshow.aide.service.TimerService" />
+        <service android:name="com.shareshow.aide.service.AudioRecordService" />
+
+        <!-- 必选 -->
+        <activity android:name="com.shareshow.airpc.activity.LoadingHelpActivity" />
+        <activity
+            android:name="me.iwf.photopicker.PhotoPickerActivity"
+            android:launchMode="singleTask"
+            android:theme="@style/preview_theme" />
+        <activity
+            android:name="me.iwf.photopicker.PhotoPagerActivity"
+            android:launchMode="singleTask"
+            android:theme="@style/preview_theme" />
+        <activity
+            android:name="com.xcg.ScanActivity"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.xcg.ScanActivity1"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <!-- 百度广告 -->
+        <activity
+            android:name="com.baidu.mobads.AppActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name="com.shareshow.aide.activity.VisitRecordFilterActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.shareshow.aide.activity.DeptMemberActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.shareshow.aide.activity.OpenNotifcationActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.shareshow.aide.activity.UserSettingActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.shareshow.aide.activity.UpdatePhoneActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.shareshow.aide.activity.VisitCommitActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+
+        <service android:name="com.shareshow.aide.service.VisitAudioService" />
+
+        <provider
+            android:name="com.baidu.mobads.openad.FileProvider"
+            android:authorities="com.shareshow.aide.bd.provider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/bd_file_paths" />
+        </provider>
+
+        <service android:name="com.shareshow.aide.service.AudioService" />
+        <!-- 网络切换广播 -->
+        <receiver android:name="com.shareshow.aide.broadcast.NetworkBroadcast" >
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+
+        <meta-data
+            android:name="android.support.VERSION"
+            android:value="26.1.0" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <provider
+            android:name="me.iwf.photopicker.utils.PhotoFileProvider"
+            android:authorities="com.shareshow.aide.provider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/__picker_provider_paths" />
+        </provider>
+
+        <service android:name="com.liulishuo.filedownloader.services.FileDownloadService$SharedMainProcessService" />
+        <service
+            android:name="com.liulishuo.filedownloader.services.FileDownloadService$SeparateProcessService"
+            android:process=":filedownloader" />
+    </application>
+
+</manifest>

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:wheel="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+    <TextView
+        android:background="@color/file_line"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"></TextView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="6"
+        android:background="#FFFFFF">
+
+        <ImageView
+            android:id="@+id/morning_submit"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignBottom="@+id/audio_start_and_compile"
+            android:layout_marginRight="20dp"
+            android:layout_toStartOf="@+id/audio_start_and_compile"
+            android:src="@mipmap/morning_submit"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/morning_delete"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignBottom="@+id/audio_start_and_compile"
+            android:layout_marginLeft="20dp"
+            android:layout_toEndOf="@+id/audio_start_and_compile"
+            android:src="@mipmap/morning_delete"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/morning_state"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/audio_start_and_compile"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="@string/morningFragment_unfinish_track" />
+
+        <RelativeLayout
+            android:id="@+id/audio_start_and_compile"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="20dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@mipmap/morning_record_back"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/audio_tip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="@string/morningFragment_track"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20sp"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:id="@+id/audio_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="00:00:00"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20sp"
+                    android:visibility="gone" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/audio_pause"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@mipmap/morning_pause"
+                android:orientation="vertical"
+                android:visibility="gone"></LinearLayout>
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:background="@color/file_line"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"></TextView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_margin="5dp"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_centerInParent="true"
+            android:layout_alignParentLeft="true"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:text="@string/morningFragment_file"/>
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:orientation="horizontal"
+            android:gravity="center"
+            >
+
+
+            <ImageView
+                android:id="@+id/tv_select_user"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:visibility="visible"
+                android:src="@mipmap/filter_people"
+                android:layout_toStartOf="@+id/tv_select_time"
+                />
+
+            <View
+                android:id="@+id/morning_line"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/fragment_line"
+                android:layout_width="1dp"
+                android:layout_height="match_parent"/>
+
+            <TextView
+                android:gravity="center"
+                android:id="@+id/tv_select_time"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:drawablePadding="6dp"
+                android:drawableRight="@mipmap/filter_date"
+                android:layout_marginRight="10dp"
+                />
+
+
+        </LinearLayout>
+
+
+
+
+
+    </RelativeLayout>
+
+    <com.scwang.smartrefresh.layout.SmartRefreshLayout
+        android:id="@+id/swipeRefresh"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8">
+
+        <android.support.v7.widget.RecyclerView
+
+            android:id="@+id/recorder_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FFFFFF" />
+
+    </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+
+</LinearLayout>

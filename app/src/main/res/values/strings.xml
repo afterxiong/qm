@@ -1,0 +1,413 @@
+﻿<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">启目</string>
+
+    <string name="login_success_tip">
+            欢迎你使用启目App,如果您配备
+        了云微投，请绑定设备，贵公司
+        平台下发的培训，产品等资料文档会自动
+        更新到我的工作，并同步到你绑定的云微投中。
+        有任何问题你可以进入QQ群:454137604
+        或者拨打电话:400-882-3060垂询。
+
+    </string>
+
+    <string-array name="tab_title">
+        <item>我的工作</item>
+        <item>晨会签到</item>
+        <item>客户拜访</item>
+        <item>个人中心</item>
+    </string-array>
+
+    <string name="audio_size">大小:%1$s</string>
+    <string name="delete_audio">你确定删除"%1$s"吗?</string>
+
+    <string name="hello_world" tools:ignore="MissingTranslation">Hello world!</string>
+    <string name="action_settings" tools:ignore="MissingTranslation">Settings</string>
+    <string name="exit_tip" tools:ignore="MissingTranslation">再按一次退出！</string>
+    <string name="app_tip" tools:ignore="MissingTranslation">投屏盒子列表</string>
+    <string name="live_broadcast" tools:ignore="MissingTranslation">还有服务器没显示?试试扫码功能</string>
+    <string name="scan_broadcast" tools:ignore="MissingTranslation">正在扫描服务器，请稍等</string>
+    <string name="clinet_name" tools:ignore="MissingTranslation">兴图快投</string>
+    <string name="is_play" tools:ignore="MissingTranslation">是否开始</string>
+    <string name="is_lock" tools:ignore="MissingTranslation">是否有锁</string>
+    <string name="play_fail" tools:ignore="MissingTranslation">点播失败</string>
+    <string name="client_refurbish_lose" tools:ignore="MissingTranslation">没有发现附近的设备</string>
+    <string name="clinet_refurbish_success" tools:ignore="MissingTranslation">刷新成功</string>
+    <string name="box_name" tools:ignore="MissingTranslation">盒子名称:</string>
+    <string name="zbzxing" tools:ignore="MissingTranslation">分享</string>
+    <string name="server_list" tools:ignore="MissingTranslation">附近的设备</string>
+    <string name="share_to" tools:ignore="MissingTranslation">分享</string>
+    <string name="input_ip" tools:ignore="MissingTranslation">输入盒子的IP地址</string>
+    <string name="sure" tools:ignore="MissingTranslation">连接</string>
+    <string name="addBOX" tools:ignore="MissingTranslation">增加盒子...</string>
+    <string name="inputIp" tools:ignore="MissingTranslation">请输入IP地址...</string>
+    <string name="cancel" tools:ignore="MissingTranslation">取消</string>
+    <string name="ok" tools:ignore="MissingTranslation">确认</string> 
+
+    <string name="share_qr" tools:ignore="MissingTranslation">分享盒子IP地址</string>
+    <string name="net_noconnect" tools:ignore="MissingTranslation">亲，网络没有连接！</string>
+    <string name="press_again_exit" tools:ignore="MissingTranslation">再次点击，退出启目</string>
+    <string name="research" tools:ignore="MissingTranslation">搜\t\t索</string>
+    <string name="reconnect" tools:ignore="MissingTranslation">重试</string>
+    <string name="nearby_nobox" tools:ignore="MissingTranslation">请下拉刷新搜索好友终端！</string>
+    <string name="nearby_nobox2" tools:ignore="MissingTranslation">请连接wifi或者开启热点共享网络！</string>
+    <string name="seach_safe_mode" tools:ignore="MissingTranslation">点击扫一扫连接好友终端！</string>
+    <string name="input_count" tools:ignore="MissingTranslation"><Data>正在连接&lt;font color=#ff8800>%s&lt;/font></Data></string>
+    <string name="connect_error" tools:ignore="MissingTranslation"><Data>亲，&lt;font color=#ff8800>%s&lt;/font>不能连接</Data></string>
+    <string name="play_error" tools:ignore="MissingTranslation"><Data>亲，&lt;font color=#ff8800>%s&lt;/font>不能分享,请重试！</Data></string>
+    <string name="play_fame" tools:ignore="MissingTranslation"><Data>正在分享&lt;font color=#ff8800>%s&lt;/font></Data></string>
+    <string name="connect_share" tools:ignore="MissingTranslation"><Data>亲，你退出了&lt;font color=#ff8800>%s&lt;/font>的分享</Data></string>
+    <string name="cancel_connect" tools:ignore="MissingTranslation"><Data>亲，你取消了&lt;font color=#ff8800>%s&lt;/font>的连接</Data></string>
+    <string name="exit_app" tools:ignore="MissingTranslation">确定要退出当前分享？</string>
+    <string name="other_box" tools:ignore="MissingTranslation">发现了其他的兴图盒子，点击</string>
+    <string name="check" tools:ignore="MissingTranslation">查看</string>
+    <string name="nearby_box" tools:ignore="MissingTranslation">附近盒子列表</string>
+    <string name="retry" tools:ignore="MissingTranslation">设置</string>
+
+
+    <string name="skip" tools:ignore="MissingTranslation">提示</string>
+    <string name="close" tools:ignore="MissingTranslation">关\t\t闭</string>
+    <string name="end_play" tools:ignore="MissingTranslation"><Data>分享已结束\t&lt;font color=#ff8800>%s&lt;/font>秒内自动关闭</Data></string>
+    <string name="nearby" tools:ignore="MissingTranslation">搜索附近的设备...</string>
+    <string name="nearby2" tools:ignore="MissingTranslation">搜索附近的手机...</string>
+    <string name="close_tp" tools:ignore="MissingTranslation">确定关闭当前投屏？</string>
+
+
+    <string name="wifi_tip" tools:ignore="MissingTranslation">当前暂无网络连接,请先连接Wi-Fi?</string>
+    <string name="file_load" tools:ignore="MissingTranslation">是否允许共享的文件被下载？</string>
+    <string name="connect_wifi" tools:ignore="MissingTranslation">连接Wi-Fi</string>
+    <string name="close_tp_tip" tools:ignore="MissingTranslation">设备正在投屏中，无法进行分享操作，是否关闭当前投屏？</string>
+    <string name="close_tp_tip4" tools:ignore="MissingTranslation">设备正在投屏中，无法进行模式切换操作，是否关闭当前投屏？</string>
+    <string name="close_tp_tip2" tools:ignore="MissingTranslation">设备正在投屏中，无法进行远程控制操作，是否关闭当前投屏？</string>
+    <string name="close_tp_tip3" tools:ignore="MissingTranslation">设备正在投屏中，无法进行文件分享操作，是否关闭当前投屏？</string>
+    <string name="close_tp_tip5" tools:ignore="MissingTranslation">设备正在投屏中，无法进行当前操作，是否关闭当前投屏？</string>
+    <string name="yes" tools:ignore="MissingTranslation">是</string>
+    <string name="close_share_tip" tools:ignore="MissingTranslation">确定退出当前分享吗？</string>
+    <string name="close_share" tools:ignore="MissingTranslation">退出</string>
+    <string name="touping" tools:ignore="MissingTranslation">正在投屏</string>
+    <string name="controlimg" tools:ignore="MissingTranslation">正在远控</string>
+    <string name="shareimg" tools:ignore="MissingTranslation">正在分享</string>
+    <string name="cancelimg" tools:ignore="MissingTranslation">正在取消下载...</string>
+    <string name="cancelimg2" tools:ignore="MissingTranslation">正在取消加载...</string>
+    <string name="sharefile" tools:ignore="MissingTranslation">共享文件</string>
+    <string name="uploadfile" tools:ignore="MissingTranslation">上传文件</string>
+    <string name="downloadfile" tools:ignore="MissingTranslation">下载文件</string>
+    <string name="getremotefile" tools:ignore="MissingTranslation">读取远程文件</string>
+    <string name="passwd_verify" tools:ignore="MissingTranslation">密码验证</string>
+    <string name="readfile" tools:ignore="MissingTranslation">正在读取远程文件</string>
+    <string name="getDir" tools:ignore="MissingTranslation">获取相册数据</string>
+    <string name="getDir2" tools:ignore="MissingTranslation">获取文件夹数据</string>
+
+    <string name="exception" tools:ignore="MissingTranslation">已退出我的投屏</string>
+    <string name="exception3" tools:ignore="MissingTranslation">投屏失败，请重试</string>
+    <string name="exception2" tools:ignore="MissingTranslation">当前网络环境差，投屏失败，请重试</string>
+    <string name="version_higher" tools:ignore="MissingTranslation">亲，您的Android系统低于5.0，请使用系统自带的多屏互动操作开启投屏!</string>
+    <string name="version_self" tools:ignore="MissingTranslation">请使用系统自带的多屏互动操作开启投屏!</string>
+    <string name="without_selected_device" tools:ignore="MissingTranslation">当前没有选中的设备!</string>
+    <string name="must_choose" tools:ignore="MissingTranslation">取消后不能投屏!</string>
+    <string name="no_response" tools:ignore="MissingTranslation">请求超时</string>
+    <string name="no_response2" tools:ignore="MissingTranslation">当前网络环境差，分享失败，请重试</string>
+    <string name="no_response3" tools:ignore="MissingTranslation">当前网络环境差，无法进行远程控制，请稍后重试</string>
+    <string name="clear_carche" tools:ignore="MissingTranslation">清除缓存成功</string>
+    <string name="just_one_can_share" tools:ignore="MissingTranslation">只能分享一个设备</string>
+    <string name="just_one_can_control" tools:ignore="MissingTranslation">只能控制一个设备</string>
+    <string name="just_one_can_fileshare" tools:ignore="MissingTranslation">只能共享一个设备</string>
+    <string name="name_needed" tools:ignore="MissingTranslation">名称不能为空</string>
+    <string name="try_again" tools:ignore="MissingTranslation">屏幕投屏功能可能断线了，请重新投屏！</string>
+    <string name="error_password" tools:ignore="MissingTranslation">密码错误，请重新输入</string>
+    <string name="unable_yk" tools:ignore="MissingTranslation">对不起，当前连接的设备不允许进行远控</string>
+    <string name="tp_success" tools:ignore="MissingTranslation">投屏成功</string>
+    <string name="tp_cut" tools:ignore="MissingTranslation">投屏被其它终端覆盖</string>
+    <string name="tp_forbidde" tools:ignore="MissingTranslation">正在进行其他操作，不能投屏</string>
+    <string name="can_run" tools:ignore="MissingTranslation">亲，app只能在手机设备运行</string>
+    <string name="be_shared" tools:ignore="MissingTranslation">分享了您的屏幕</string>
+    <string name="exit_shared" tools:ignore="MissingTranslation">退出了分享界面</string>
+    <string name="tp_now" tools:ignore="MissingTranslation">程序正在投屏</string>
+    <string name="password_changed" tools:ignore="MissingTranslation">修改了密码</string>
+    <string name="not_open" tools:ignore="MissingTranslation">的我的投屏没有打开！</string>
+    <string name="tp_c" tools:ignore="MissingTranslation">投 屏</string>
+    <string name="stop_c" tools:ignore="MissingTranslation">停止</string>
+    <string name="hide_c" tools:ignore="MissingTranslation">隐藏</string>
+    <string name="tp_c2" tools:ignore="MissingTranslation">你的设备正在共享</string>
+    <string name="tp_m" tools:ignore="MissingTranslation">屏幕分享</string>
+    <string name="is_exited" tools:ignore="MissingTranslation">是否退出分享?</string>
+
+
+    <string name="text_state1" tools:ignore="MissingTranslation">手机互动分享</string>
+    <string name="text_state2" tools:ignore="MissingTranslation">投任盒/任屏</string>
+
+    <string name="setting_success" tools:ignore="MissingTranslation">设置成功</string>
+    <string name="logo_info" tools:ignore="MissingTranslation">Copyright © 启目科技</string>
+
+    <string name="qingxi" tools:ignore="MissingTranslation">清晰度:</string>
+    <string name="gaoqing" tools:ignore="MissingTranslation">高清</string>
+    <string name="biaoqing" tools:ignore="MissingTranslation">标清</string>
+    <string name="tpsetting" tools:ignore="MissingTranslation">投屏设置</string>
+    <string name="clearcache" tools:ignore="MissingTranslation">清除缓存</string>
+    <string name="connect_auto" tools:ignore="MissingTranslation">自动连接（默认扫码连接）</string>
+    <string name="settingsearch" tools:ignore="MissingTranslation">连接设置</string>
+    <string name="privateMode" tools:ignore="MissingTranslation">保密模式（一对一扫码连接）</string>
+    <string name="publicMode" tools:ignore="MissingTranslation">公开模式（连上同一网络自动搜索）</string>
+    <string name="namesetting" tools:ignore="MissingTranslation">名称设置</string>
+    <string name="setting" tools:ignore="MissingTranslation">设　　置</string>
+    <string name="settingTitle" tools:ignore="MissingTranslation">设置</string>
+    <string name="about" tools:ignore="MissingTranslation">关　　于</string>
+    <string name="recieve_file" tools:ignore="MissingTranslation">接收文件/</string>
+    <string name="ready_load" tools:ignore="MissingTranslation">准备下载</string>
+    <string name="ready_upload" tools:ignore="MissingTranslation">准备上传</string>
+    <string name="jiaLoading" tools:ignore="MissingTranslation">正在加载:</string>
+    <string name="loadsuccess" tools:ignore="MissingTranslation">文件下载成功,文件保存路径：</string>
+    <string name="downloading" tools:ignore="MissingTranslation">正在下载</string>
+    <string name="uploading" tools:ignore="MissingTranslation">正在上传</string>
+    <string name="without_fileshare" tools:ignore="MissingTranslation">暂无共享文件</string>
+    <string name="sharing" tools:ignore="MissingTranslation">你正在共享\t</string>
+    <string name="getPicture_Video" tools:ignore="MissingTranslation">读取数据...</string>
+    <string name="get_file" tools:ignore="MissingTranslation">读取文件...</string>
+    <string name="getAlbumName" tools:ignore="MissingTranslation">获取本地相册</string>
+    <string name="downlaod_forbidden" tools:ignore="MissingTranslation">禁止下载</string>
+    <string name="downlaod_allow" tools:ignore="MissingTranslation">允许下载</string>
+    <string name="cancel_share" tools:ignore="MissingTranslation">取消共享</string>
+    <string name="tp_interrupt" tools:ignore="MissingTranslation">投屏断开，请重新投屏</string>
+    <string name="phone_box_error" tools:ignore="MissingTranslation">暂不支持对不同类型设备同时投屏</string>
+    <string name="phone_forbidden" tools:ignore="MissingTranslation">暂不支持对手机端分享</string>
+    <string name="phone_yk_forbidden" tools:ignore="MissingTranslation">暂不支持对手机远控</string>
+    <string name="pc_forbidden" tools:ignore="MissingTranslation">暂不支持对pc端的投屏</string>
+    <string name="pc_fx_forbidden" tools:ignore="MissingTranslation">暂不支持对pc端的分享</string>
+    <string name="pc_yk_forbidden" tools:ignore="MissingTranslation">暂不支持对pc端的远控</string>
+    <string name="no_tp_divice" tools:ignore="MissingTranslation">没有可投屏的设备</string>
+    <string name="no_fx_divice" tools:ignore="MissingTranslation">没有可分享的设备</string>
+    <string name="no_yk_divice" tools:ignore="MissingTranslation">没有可控制的设备</string>
+    <string name="screen_share_forbidden" tools:ignore="MissingTranslation">暂不支持屏幕分享功能</string>
+    <string name="exit" tools:ignore="MissingTranslation">退　　出</string>
+    <string name="screen_cast" tools:ignore="MissingTranslation">投   屏</string>
+    <string name="fast" tools:ignore="MissingTranslation">流畅</string>
+    <string name="high" tools:ignore="MissingTranslation">高</string>
+    <string name="middle" tools:ignore="MissingTranslation">中</string>
+    <string name="low" tools:ignore="MissingTranslation">低</string>
+    <string name="no" tools:ignore="MissingTranslation">否</string>
+    <string name="isclearcache" tools:ignore="MissingTranslation">是否清除缓存？</string>
+    <string name="save" tools:ignore="MissingTranslation">保存</string>
+    <string name="close_" tools:ignore="MissingTranslation">关闭</string>
+    <string name="write_here" tools:ignore="MissingTranslation">请在此处输入...</string>
+    <string name="sendto" tools:ignore="MissingTranslation">发送到启目</string>
+    <string name="deleteshow" tools:ignore="MissingTranslation">删除启目的显示</string>
+    <string name="delete" tools:ignore="MissingTranslation">删除</string>
+    <string name="alphe" tools:ignore="MissingTranslation">相册</string>
+    <string name="without_document" tools:ignore="MissingTranslation">没有文件</string>
+    <string name="without_download_file" tools:ignore="MissingTranslation">没有下载的文件</string>
+    <string name="remotecontrol" tools:ignore="MissingTranslation">遥控器</string>
+    <string name="document" tools:ignore="MissingTranslation">文档</string>
+    <string name="picture" tools:ignore="MissingTranslation">图片</string>
+    <string name="album" tools:ignore="MissingTranslation">相册</string>
+    <string name="video" tools:ignore="MissingTranslation">视频</string>
+    <string name="other" tools:ignore="MissingTranslation">其他</string>
+    <string name="download" tools:ignore="MissingTranslation">下载</string>
+    <string name="shared_before" tools:ignore="MissingTranslation">已共享文件</string>
+    <string name="without_now" tools:ignore="MissingTranslation">暂无共享文件</string>
+    <string name="wenjian" tools:ignore="MissingTranslation">文件</string>
+    <string name="please_pull" tools:ignore="MissingTranslation">当前网络环境差，获取文件失败\n请下拉刷新</string>
+    <string name="getDiretoryError" tools:ignore="MissingTranslation">读取失败!</string>
+    <string name="downLoadError" tools:ignore="MissingTranslation">下载失败!</string>
+    <string name="back_up" tools:ignore="MissingTranslation">返回上一级目录</string>
+    <string name="name" tools:ignore="MissingTranslation">名称</string>
+    <string name="back" tools:ignore="MissingTranslation">返回</string>
+
+
+    <string name="remoteDevice" tools:ignore="MissingTranslation">远程设备</string>
+    <string name="localfile" tools:ignore="MissingTranslation">本地文件</string>
+    <string name="unselectedUpLoadFile" tools:ignore="MissingTranslation">请先选中要上传的文件！</string>
+    <string name="unselectedSharedFile" tools:ignore="MissingTranslation">请先选中要分享的文件！</string>
+    <string name="unselectedDownLoadFile" tools:ignore="MissingTranslation">请先选中要下载的文件！</string>
+    <string name="unabledDivice" tools:ignore="MissingTranslation">没有可用的设备！</string>
+    <string name="unabledFriend" tools:ignore="MissingTranslation">没有可以分享的好友！</string>
+    <string name="unabledFile" tools:ignore="MissingTranslation">没有可以分享的文件！</string>
+    <string name="unOpenApp" tools:ignore="MissingTranslation">启目程序未打开！</string>
+    <string name="unSelectedFriend" tools:ignore="MissingTranslation">没有选择分享的好友！</string>
+    <string name="upload_fail_unnet" tools:ignore="MissingTranslation">当前网络环境差，上传失败！</string>
+    <string name="download_fail_unnet" tools:ignore="MissingTranslation">当前网络环境差，下载失败，请稍后重试！</string>
+    <string name="file_img" tools:ignore="MissingTranslation">正在进行文件操作！</string>
+    <string name="getfiles_unfinished" tools:ignore="MissingTranslation">文件暂未加载完成！</string>
+    <string name="function_noaccess" tools:ignore="MissingTranslation">功能暂未开放，敬请期待</string>
+    <string name="load_file_error" tools:ignore="MissingTranslation">文件加载失败</string>
+    <string name="share_success" tools:ignore="MissingTranslation">文件共享成功</string>
+    <string name="share" tools:ignore="MissingTranslation">正在分享</string>
+    <string name="ryp_share" tools:ignore="MissingTranslation">启目分享</string>
+    <string name="shareDirectory" tools:ignore="MissingTranslation">共享文件/</string>
+    <string name="share_fail" tools:ignore="MissingTranslation">文件共享失败</string>
+    <string name="upload_fail_error" tools:ignore="MissingTranslation">上传失败，请重试！</string>
+    <string name="upload_fail_success" tools:ignore="MissingTranslation">文件上传成功</string>
+    <string name="memory_out" tools:ignore="MissingTranslation">手机内存不足！不能下载</string>
+    <string name="without_permittion" tools:ignore="MissingTranslation">你没有权限下载此文件！</string>
+    <string name="dir_unload" tools:ignore="MissingTranslation">文件夹不能下载！</string>
+    <string name="alphe_exist" tools:ignore="MissingTranslation">相册已经共享了！</string>
+    <string name="files_exist" tools:ignore="MissingTranslation">文件已经共享了！</string>
+    <string name="coverview_tip" tools:ignore="MissingTranslation">下拉刷新重新获取！</string>
+    <string name="getd_fail" tools:ignore="MissingTranslation">读取数据失败！</string>
+    <string name="divice_top" tools:ignore="MissingTranslation">请选择设备上传</string>
+    <string name="connect_divice" tools:ignore="MissingTranslation">连接设备</string>
+    <string name="cancel_upload" tools:ignore="MissingTranslation">正在取消上传...</string>
+    <string name="t_s" tools:ignore="MissingTranslation">允许投屏内容被分享</string>
+    <string name="expand" tools:ignore="MissingTranslation">满屏设置</string>
+    <string name="seek" tools:ignore="MissingTranslation">投屏内容不准被分享</string>
+    <string name="about_address_text">公司:　武汉启目科技有限公司</string>
+    <string name="about_local_text">地址:　武汉市东湖新技术开发区光谷软件园C3栋8楼</string>
+    <string name="about_qq">QQ交流群: 454137604</string>
+    <string name="about_net">官网:　www.shareshow.com.cn</string>
+    <string name="about_help">使用帮助</string>
+    <string name="about_propose">意见反馈</string>
+    <string name="help_strategy_hreader_1">我的手机/平板如何与好友的手机/平板连接？</string>
+    <string name="help_strategy_content_1">①　我和好友的终端设备连到同一wifi网络时：</string>
+    <string name="help_strategy_content_1_1">步骤1：我的终端打开启目APP；</string>
+    <string name="help_strategy_content_1_2">步骤2：好友的设备打开启目APP，选择扫码连接，扫描我的终端APP界面上的连接二维码，等待连接成功即可。</string>
+    <string name="propose_tip_add_text">　请输入遇到的问题或者建议?</string>
+    <string name="propose_tip_add_iamge">添加图片说明</string>
+    <string name="propose_tip_add_way">　请输入联系方式（QQ）</string>
+    <string name="propose_commit">提交</string>
+    <string name="tijiao" tools:ignore="MissingTranslation">正在提交中...</string>
+    <string name="propose_nowifi">②　我和好友的手机没有连接wifi：</string>
+    <string name="propose_nowifi_sugg">开启启目APP时我的手机会开启热点共享网络，好友的终端设备扫码时会自动连接到我的热点；在我的手机开启移动数据时，好友的设备也能连接互联网（手机可以开启热点，平板电脑不可以开热点）
+    我的终端与好友的终端设备连接在同一网络时，在菜单栏选择“自动搜索”会自动搜索到。</string>
+    <string name="propose_qu2">如何将我的手机/平板屏幕投给好友的手机/平板？</string>
+    <string name="propose_qu3">如何调整投屏效果？</string>
+    <string name="propose_qu4_0">如何操作文件共享？</string>
+    <string name="propose_qu4_1">①　共享文件给好友访问:</string>
+    <string name="propose_qu4_2">打开启目App，在文件共享中选择本地文件（或者微信/QQ文件），长按文件选择共享，微信接收的图片要点击下载，接收的视频要长按点击保存视频；QQ接收的图片和视频要点击保存到手机；</string>
+    <string name="propose_qu4_3">②　发送文件给好友:</string>
+    <string name="propose_qu4_4">在启目App中长按文件时，点击上传按钮即可发送到连接的好友终端；也可在不打开启目时，选择文件/图片/视频时点击“分享”，选择启目发送到好友终端上。</string>
+    <string name="propose_qu5">如何设置共享的文件只读不能下载？</string>
+    <string name="propose_qu6">如何取消我的手机/平板已经共享的文件？</string>
+    <string name="propose_qu7">如何下载好友共享的文件？</string>
+    <string name="propose_qu8">已下载的文件放在哪里？</string>
+    <string name="propose_qu9">如何与电脑端进行屏幕互投和文件共享？</string>
+    <string name="propose_ans2">我的手机/平板与好友的连接后，点击下方的“投屏”按钮即可。</string>
+    <string name="propose_ans3_1">在系统设置中，调整图像质量和网络环境可改变投屏效果；在选择了图像的流畅性/清晰度后，根据当前设备所在网络调整网络参数；
+一般家庭和办公环境下的wifi网络较好，公共场所wifi由于连接的设备多网络较差。
+</string>
+    <!--<string name="propose_ans3_2">操作2：打开启目APP后，在文件共享中选择本机文件长按，点击下方的“共享”按钮，我的手机/平板与好友的连接后，好友即可查看/下载。</string>-->
+    <string name="propose_ans4">在与好友手机/平板已连接后，在文件共享下选择本地文件长按，点击下方的“上传”按钮即可将文件发送给好友。</string>
+    <string name="propose_ans5">在选择文件共享时，弹出是否允许下载的对话框选择“否”即可，已经允许下载的文件，在已共享文件列表中选择文件向左侧滑，点击“禁止下载”即可。</string>
+    <string name="propose_ans6">在已共享文件列表下，选择已共享的文件向左侧滑，点击显示的按钮“取消共享”。</string>
+    <string name="propose_ans7">在文件共享里选择了好友设备后，选中好友共享的文件长按，点击下方的“下载”按钮即可。</string>
+    <string name="propose_ans8">设备存储的一级目录下存在文件夹“renyiping”，下载的文件在该文件夹目录的“DownLoads”文件夹下。</string>
+    <string name="propose_ans9">首先请保证电脑端已下载启目客户端，安装客户端后启动，手机/平板端启动APP后扫码连接电脑端后就可以互投屏幕和共享文件。</string>
+    <string name="downloadNet">①　“启目”官网 www.shareshow.com.cn下载中心下载</string>
+    <string name="tp_box_failed" tools:ignore="MissingTranslation">投屏盒子失败！</string>
+    <string name="tp_box_success" tools:ignore="MissingTranslation">投屏盒子成功！</string>
+    <string name="tp_pc_success" tools:ignore="MissingTranslation">投屏PC成功！</string>
+    <string name="tp_mobile_success" tools:ignore="MissingTranslation">投屏手机成功！</string>
+
+    <string name="file_share">快传</string>
+    <string name="file_share_2">文件快传</string>
+    <string name="sharescreen_share">启目快传</string>
+    <string name="share_file">快传的文件</string>
+    <string name="share_friend">快传给好友</string>
+    <string name="share_send">发送</string>
+    <string name="shareToshareFile">复制到启目共享目录</string>
+    <string name="without_device_control">现在只支持对任屏进行远控!</string>
+
+
+    <string name="phone1">1.安卓手机启目APP如何下载？</string>
+    <string name="phone1_1">1)各大手机应用商店内搜索“启目”下载安装（应用商店包括：360手机助手、豌豆荚、华为、小米、魅族、vivo、OPPO、联想、乐视、锤子、金立、三星、百度、腾讯应用宝）;</string>
+    <string name="phone1_2">2)扫码已安装启目APP主界面二维码下载安装;</string>
+    <string name="phone1_3">3)访问启目官网www.shareshow.com.cn下载。</string>
+    <string name="phone2">2.手机之间如何互动？</string>
+    <string name="phone2_1">1)手机安装启目后连接到同一个wifi网络下，打开启目后会自动搜索到其他手机终端，勾选后可投屏、文件快传、分享等操作;</string>
+    <string name="phone2_2">2)用户设置了启目保密模式下工作时，需要互相扫码连接后才能互动。</string>
+    <string name="phone3">3.如何投屏到其他手机？</string>
+    <string name="phone3_1">1)两个或者多个手机连接到同一个wifi后，连接勾选后，点击下方的投屏按钮，可以将自己的手机屏幕投到其它手机显示，可投到多个手机上。</string>
+    <string name="phone4">4.手机之间如何快传文件？</string>
+    <string name="phone4_1">1)手机之间连接勾选后，点击主界面下方的“快传”按钮，进入到文件快传界面，选择本地/微信/QQ文件后，长按文件选中，点击列表下方的“快传”按钮把文件发给对方。可以发送多个文件，但是一次只能给一个手机快传文件，可在设备列表切换手机选择快传目标;</string>
+    <string name="phone4_2">2)在手机上图库/文件管理其中选择文件后通过分享/发送。然后选择启目快传，可将文件快传给多个手机。</string>
+    <string name="phone5">5.如何共享文件给其他手机自主查看？</string>
+    <string name="phone5_1">1)用户可以把自己手机上的文件共享，其它手机自主选择查看或下载文件;</string>
+    <string name="phone5_2">2)在启目主界面选择快传后，选择文件长按，点击下方共享按钮后，其他手机在启目上就可自主选择文件查看。已共享文件列表侧滑文件可取消共享或者控制下载授权;</string>
+    <string name="phone5_3">3)也可在手机图库/文件管理里选择文件，选择分享/发送，选择启目后，点击下方复制到启目共享目录，其他手机就可以查看。</string>
+    <string name="phone6">6.“分享”如何操作？</string>
+    <string name="phone6_1">1)举例：现在有三台手机（A/B/C）准备进行分享操作，A先投屏到B手机，C连接勾选B后，点击分享也可同步观看手机A的屏幕显示,分享支持多台手机同时分享。</string>
+    <string name="phone7">7.投屏不清楚，卡顿，花屏怎么办？</string>
+    <string name="phone7_1">1)请尽可能在5Gwifi下投屏;</string>
+    <string name="phone7_2">2)如果投屏不清晰，可以在设置里，选择投屏清晰度来调整;</string>
+    <string name="phone7_3">3)在公共场合下的wifi网络较复杂，可以开启手机热点，通过热点连接后互动，不占用流量。</string>
+
+
+    <string name="pc1">1.电脑端软件如何下载？</string>
+    <string name="pc1_1">1)访问启目官网www.shareshow.com.cn下载;</string>
+    <string name="pc1_2">2)电脑端打开浏览器搜索任易屏下载，或者在360软件库中搜索下载。</string>
+    <string name="pc2">2.手机如何与电脑连接配对？</string>
+    <string name="pc2_1">1)手机与电脑连接在一个局域网下，手机公开模式下会自动搜索连接电脑；手机保密模式下扫码电脑主界面的二维码连接</string>
+    <string name="pc3">3.如何将手机图片/视频/文件快传给电脑？</string>
+    <string name="pc3_1">1)手机与电脑连接配对后，手机端在“快传”例选择文件快传给电脑，电脑端会自动显示接收的文件;</string>
+    <string name="pc3_2">2)电脑端开启启目后，手机端可在不打开任易屏时快传文件：在图库选择图片/视频或者文件管理中选择文件后，选择分享/发送，选择任易屏快传可发送给电脑;</string>
+    <string name="pc3_3">3)电脑端文件接收目录可自定义，在系统设置里设置，右键启目系统图标，可选择直接打开文件接收目录。</string>
+    <string name="pc4">4.电脑如何将文件快传给手机？</string>
+    <string name="pc4_1">1)手机与电脑开启任易屏连接配对后，电脑端选择文件鼠标右键，点击任易屏快传，可发送到手机端，发送完成后手机端会自动提示消息;</string>
+    <string name="pc4_2">2)电脑端启目主界面点击“快传”，在文件管理界面，选择要快传的目标文件复制，再在左侧列表选择目标手机粘贴即可。</string>
+
+
+    <string name="tv1">1.电视端任易屏软件如何下载？</string>
+    <string name="tv1_1">1)主流电视厂商的电视自带的应用市场搜索“任易屏”下载;</string>
+    <string name="tv1_2">2)当贝电视应用市场搜索“任易屏”下载;</string>
+    <string name="tv1_3">3)访问启目官网www.shareshow.com.cn下载。</string>
+    <string name="tv2">2.手机如何与电视连接配对？</string>
+    <string name="tv2_1">1)手机与电视连接到同一个网络后打开启目，手机在公开模式下会自动连接到电视；手机在保密模式下可扫码电视的连接二维码连接。</string>
+    <string name="tv3">3.如何将手机屏幕投到电视显示？</string>
+    <string name="tv3_1">1)	手机与电视连接后，勾选目标电视设备，点击投屏按钮即可。</string>
+    <string name="tv4">4.如何将手机图片/视频/其他文件发到电视显示？</string>
+    <string name="tv4_1">1)手机上选择图片/视频/文件快传到电视，电视上任易屏查看文件，或者通过其他文件管理应用查看;</string>
+    <string name="tv4_2">2)将手机上的图片/视频/文件共享后，电视上任易屏访问手机的共享文件查看。</string>
+    <string name="tv5">5.手机如何“分享”电视上的投屏内容？</string>
+    <string name="tv5_1">1)手机A投屏到电视后，手机B连接电视后点击“分享”就可观看手机A的屏幕显示。</string>
+
+    <string name="work_notify">欢迎使用启目应用，平台下发到手机的各类培训、产品等资料将自动同步到您的云微投“我的工作”中;
+        “个人信息”下的二维码可提供给没有设备的用户注册到平台获取统一资料！
+    </string>
+    <string name="work_notify_end">有任何使用问题您可进QQ群：454137604或者拨打电话：400-882-3060追询
+    </string>
+    <string name="shareshow_team">启目团队</string>
+    <string name="user_protocol">登录代表您同意启目<font color="#5a84f7">《用户协议》</font></string>
+    <string name="apendix_tip">[下载附件:%1$s]</string>
+    <string name="company_org_dept">%1$s><font color="#5a84f7">%2$s</font></string>
+    <string name="company_org_dept_team">团队</string>
+
+
+    <string name="screen_wifi_scan">扫一扫上方二维码，与我连接</string>
+    <string name="screen_no_wifi">请连接wifi或者开启热点网络...</string>
+    <string name="screen_wifi_scan_title">扫码好友二维码，连接好友终端</string>
+    <string name="morningFragment_file_success">文件上传成功!</string>
+    <string name="morningFragment_file_fail">文件上传失败!</string>
+    <string name="morningFragment_no_net">网络连接不可用，请稍后重试!</string>
+    <string name="morningFragment_download_fail">获取录音失败，请稍后重试!</string>
+    <string name="morningFragment_finish">完成录制</string>
+    <string name="morningFragment_tip">签到</string>
+    <string name="morningFragment_sd">存储</string>
+    <string name="morningFragment_audio">录音</string>
+    <string name="morningFragment_recoding">签到中，无法播放录音文件</string>
+    <string name="morningFragment_no_record_file">该日期下无录音文件</string>
+    <string name="morningFragment_link_internet">请保证网络连接以上传信息，以免影响工作考核</string>
+    <string name="morningFragment_premission">请在应用权限管理中打开APP的录音权限!</string>
+    <string name="permission_setting">在设置-应用-启目-权限中开启%1$s权限,以便正常使用%2$s功能</string>
+    <string name="boolbar_title">%1$s的拜访记录</string>
+    <string name="visit_name">拜访客户:%1$s</string>
+
+    <string name="screen_projection">投&#12288;&#12288;屏</string>
+    <string name="cancel_screen_projection">取消投屏</string>
+
+    <string name="morningFragment_unfinish_track">今日未签到</string>
+    <string name="morningFragment_tracking">录音中...</string>
+    <string name="morningFragment_finish_track">今日已签到</string>
+    <string name="morningFragment_file">录音文件</string>
+    <string name="morningFragment_track">签 到</string>
+
+    <string name="user_phonenumer">手机号: %1$s</string>
+    <string name="update_phone_text">下一步</string>
+    <string name="update_phone_compile">完成</string>
+    <string name="commit_visit_name">客户姓名:&#12288;%1$s</string>
+    <string name="commit_visit_address">客户地址:&#12288;%1$s</string>
+    <string name="commit_visit_date">拜访时间:&#12288;%1$s</string>
+
+
+    <string name="person_audio_starttime">开始日期不能大于结束日期</string>
+    <string name="person_audio_endtime">结束日期不能小于开始日期</string>
+    <string name="person_audio_90_day">结束日期不能小于开始日期</string>
+    <string name="person_audio_stop">录音播放停止了!</string>
+</resources>

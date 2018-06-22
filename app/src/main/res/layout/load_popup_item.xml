@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:id="@+id/root"
+    android:paddingBottom="@dimen/xt5dp"
+    android:paddingTop="@dimen/xt5dp" >
+
+    <ImageView
+        android:id="@+id/icon_img"
+        android:layout_width="@dimen/xt25dp"
+        android:layout_height="@dimen/xt25dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/xt5dp"
+        android:src="@mipmap/list_img" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/xt4dp"
+        android:layout_toRightOf="@id/icon_img"
+        android:ellipsize="middle"
+        android:padding="@dimen/xt3dp"
+        android:singleLine="true"
+        android:textColor="@color/popup2"
+        android:textSize="@dimen/xt15sp" />
+
+    <ImageView
+        android:id="@+id/choose_img"
+        android:layout_width="@dimen/xt15dp"
+        android:layout_height="@dimen/xt15dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/xt5dp"
+        android:src="@mipmap/list_img2"
+        android:visibility="gone" />
+
+</RelativeLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <layer-list  
+  xmlns:android="http://schemas.android.com/apk/res/android">  
+    <item android:id="@android:id/background">  
+        <shape>  
+        
+            <corners android:radius="8dp"/>
+            <solid android:color="@color/xtb0b0b0" />  
+        </shape>  
+     
+    </item>  
+    <item android:id="@android:id/secondaryProgress">  
+        <clip>  
+           <shape>  
+                        
+            <corners android:radius="8dp"/>
+                <solid android:color="@color/xtb0b0b0" />  
+            </shape>  
+        </clip>  
+    </item>  
+    <item android:id="@android:id/progress">  
+        <clip>  
+            <shape>  
+                            
+            <corners android:topLeftRadius="8dp"
+                android:bottomLeftRadius="8dp"
+                />
+      <!--       <gradient android:startColor="@color/xt1784d4"
+                android:centerColor="@color/xt1784d4"
+                android:endColor="@color/xt1784d4"
+               
+                /> -->
+            <solid android:color="@color/xt1784d4" />
+            </shape>  
+        </clip>  
+    </item>  
+</layer-list> 
+
+<!-- <layer-list  
+  xmlns:android="http://schemas.android.com/apk/res/android">  
+  <item android:id="@android:id/background"  android:drawable="@drawable/seekbar_bg1">
+      
+    </item> 
+    <item android:id="@android:id/secondaryProgress">  
+       <scale android:drawable="@drawable/seekbar_bg2"   android:scaleWidth="100%"/> 
+    </item>  
+    <item android:id="@android:id/progress">  
+        <scale android:drawable="@drawable/seekbar_bg2"  android:scaleWidth="100%"/>   
+    </item> 
+</layer-list> -->

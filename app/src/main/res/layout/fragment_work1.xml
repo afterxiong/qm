@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/network_disabled"
+        android:drawableLeft="@mipmap/work_network_disabled"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="#FFDFDF"
+        android:drawablePadding="10dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="20dp"
+        android:text="网络连接不可用"
+        android:textColor="#323232" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="5dp"
+        android:background="@drawable/back_shape"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:src="@mipmap/main_suona" />
+
+        <ViewFlipper
+            android:id="@+id/flipper"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="6"
+            android:autoStart="true"
+            android:flipInterval="3000"
+            android:inAnimation="@anim/notity_up_in"
+            android:outAnimation="@anim/notity_up_out" />
+
+        <TextView
+            android:id="@+id/more_affiche_notify"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="2dp"
+            android:text="更多"
+            android:textColor="@color/colorPrimaryDark"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/refresh_layout"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="9">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/donwloading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:gravity="center_horizontal"
+                android:padding="6dp"
+                android:text="检查文件更新中" />
+
+
+
+            <!--<TextView-->
+                <!--android:id="@+id/emputy_state"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_centerInParent="true"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:visibility="visible"-->
+                <!--android:drawableTop="@mipmap/emputy_file"-->
+                <!--android:gravity="center"-->
+                <!--android:text="没有任何工作文档"-->
+                <!--android:textSize="20sp" />-->
+
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recycler"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/donwloading"
+                android:background="#FFFFFF">
+            </android.support.v7.widget.RecyclerView>
+
+            <LinearLayout
+                android:layout_centerInParent="true"
+                android:id="@+id/emputy_state"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/emputy_file"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="没有任何工作文档"
+                    android:textSize="20sp"/>
+            </LinearLayout>
+        </RelativeLayout>
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:paddingBottom="10dp"
+        android:paddingRight="5dp"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="2"
+            android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/back_shape"
+                    android:orientation="vertical"
+                    android:layout_marginRight="5dp">
+                    <TextView
+                        android:id="@+id/tv_work_tip1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:text="今日概括"
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        android:textColor="#ffffff"
+                        android:gravity="center_horizontal"
+                     />
+
+                    <TextView
+                        android:id="@+id/tv_morning_track"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:text="晨会未签到" />
+
+                    <TextView
+                        android:id="@+id/tv_visit_count"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:text="拜访客户0次" />
+
+                    <TextView
+                        android:id="@+id/tv_work_tip4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:text="培训学习" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/device_group_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/back_shape"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                 >
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:paddingBottom="10dp"
+                        android:paddingTop="10dp"
+                        android:text="我的任易屏设备"
+                        android:textColor="#ffffff"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/bind_device_state"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_toEndOf="@id/textView"
+                        android:text="(在线)"
+                        android:textColor="#ffffff"
+                        android:textSize="9sp" />
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/screen_projection"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:padding="10dp"
+                    android:text="投        屏"
+                    android:textColor="#48b3ff"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/work_file"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:padding="10dp"
+                    android:text="工作文件"
+                    android:textColor="#48b3ff"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/remote_control"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:padding="10dp"
+                    android:text="远程控制"
+                    android:textColor="#48b3ff"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/guide_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:lineSpacingExtra="10dp"
+                    android:paddingLeft="10dp"
+                    android:textSize="14sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

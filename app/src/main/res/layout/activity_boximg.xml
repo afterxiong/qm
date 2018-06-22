@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+  >
+   
+    
+    
+        <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+        
+         <LinearLayout 
+       android:layout_width="fill_parent"
+       android:layout_height="@dimen/xt60dp"
+       android:orientation="horizontal"
+       android:id="@+id/show_head"
+       android:visibility="gone"
+  	   android:background="@mipmap/nav_bg"
+       android:paddingTop="@dimen/xt20dp"
+       >
+       <RelativeLayout 
+           android:layout_width="fill_parent"
+           android:layout_height="fill_parent"
+           >
+           <LinearLayout 
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_centerVertical="true"
+               android:orientation="horizontal"
+               android:gravity="center_vertical"
+               android:layout_marginLeft="@dimen/xt10dp"
+               android:id="@+id/back"
+              
+               >
+           <ImageView 
+               android:layout_width="@dimen/xt25dp"
+               android:layout_height="@dimen/xt25dp"
+               android:src="@mipmap/back_icon"
+               />
+                      <TextView 
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textSize="@dimen/xt18dp"
+               android:textColor="@color/white"
+               android:text="返回"
+               
+               android:background="@null"
+               />
+           </LinearLayout>
+           <TextView 
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textColor="@color/white"
+               android:layout_centerInParent="true"
+               android:textSize="@dimen/xt20sp"
+               android:id="@+id/text"
+               android:singleLine="true"
+               android:ellipsize="middle"
+               android:layout_marginLeft="@dimen/xt150dp"
+               android:layout_marginRight="@dimen/xt20dp"
+               />
+                  
+       </RelativeLayout>
+   </LinearLayout>
+   
+         
+         
+             <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/xt60dp"
+        android:background="@mipmap/file_buttom"
+        android:orientation="horizontal"
+        android:id="@+id/show_buttom"
+        android:gravity="center"
+        android:visibility="gone"
+            android:padding="@dimen/xt3dp"
+        android:layout_alignParentBottom="true"
+        >
+             
+            <ImageView 
+            android:id="@+id/copy"
+                android:layout_width="@dimen/xt55dp"
+                android:layout_height="@dimen/xt55dp"
+                android:background="@drawable/down_load_bg"
+                />
+      
+        
+    </LinearLayout>
+   
+</RelativeLayout>

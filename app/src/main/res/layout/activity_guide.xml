@@ -1,0 +1,17 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/guideViewPager"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <com.shareshow.airpc.widget.CircleView
+        android:id="@+id/circleView"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/xt40dp"
+        android:layout_alignParentBottom="true" />
+
+</RelativeLayout>

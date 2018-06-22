@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EFEFEF"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/update_phone_tip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:text="请输入新的手机号码"
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/update_edit_phone"
+            android:layout_width="match_parent"
+            android:hint="请输入手机号码"
+            android:inputType="number"
+            android:textSize="14sp"
+            android:layout_marginRight="50dp"
+            android:layout_height="match_parent"
+            android:background="#EFEFEF" />
+        <TextView
+            android:id="@+id/countdown"
+            android:layout_width="wrap_content"
+            android:text="60S"
+            android:padding="10dp"
+            android:visibility="gone"
+            android:textSize="16sp"
+            android:gravity="center_vertical"
+            android:layout_gravity="right|center_vertical"
+            android:layout_height="match_parent" />
+
+    </FrameLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/colorPrimary" />
+
+    <Button
+        android:id="@+id/update_phone_step"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/white_border"
+        android:text="@string/update_phone_text"
+        android:textColor="#666666"
+        android:textSize="20sp" />
+
+</LinearLayout>

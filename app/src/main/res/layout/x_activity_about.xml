@@ -1,0 +1,203 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:fitsSystemWindows="true">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:fitsSystemWindows="true">
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:id="@+id/collapsingToolbarLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fitsSystemWindows="true"
+            app:contentScrim="@color/colorPrimaryDark"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed|snap"
+            app:statusBarScrim="@android:color/transparent"
+            app:titleEnabled="false">
+
+            <ImageView
+                android:id="@+id/about_appbar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:fitsSystemWindows="true"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/about_appbar"
+                app:layout_collapseMode="pin"
+                app:layout_collapseParallaxMultiplier="0.7" />
+
+            <TextView
+                android:id="@+id/version"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|bottom"
+                android:layout_marginBottom="10dp"
+                android:drawablePadding="10dp"
+                android:drawableTop="@mipmap/about_logo"
+                android:gravity="center"
+                android:text="@string/app_name"
+                android:textColor="@android:color/white" />
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:layout_collapseMode="pin">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@mipmap/back_icon"
+                    android:textColor="@android:color/white"
+                    android:gravity="center"
+                    android:onClick="back"
+                    android:drawablePadding="8dp"
+                    android:textSize="16sp"
+                />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/about"
+                    android:textColor="@android:color/white"
+                    android:textSize="20sp" />
+
+            </android.support.v7.widget.Toolbar>
+
+        </android.support.design.widget.CollapsingToolbarLayout>
+    </android.support.design.widget.AppBarLayout>
+
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:fitsSystemWindows="true"
+        android:orientation="vertical"
+        android:scrollbars="none"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                style="@style/about_text_style"
+                android:drawableLeft="@mipmap/about_address"
+                android:text="@string/about_address_text" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="#50000000" />
+
+            <TextView
+                style="@style/about_text_style2"
+                android:drawableLeft="@mipmap/about_local"
+                android:ellipsize="none"
+                android:maxLines="2"
+                android:scrollHorizontally="false"
+                android:text="@string/about_local_text" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="#50000000" />
+            <TextView
+                android:id="@+id/tv"
+                style="@style/about_text_style"
+                android:drawableLeft="@mipmap/about_net"
+                android:text="@string/about_net" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="#50000000" />
+
+
+
+            <TextView
+                android:id="@+id/tv2"
+                style="@style/about_text_style"
+                android:drawableLeft="@mipmap/qq_icon"
+                android:text="@string/about_qq" />
+
+<!--            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="#50000000" />
+
+
+            <RelativeLayout
+                android:id="@+id/help_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="help">
+
+                <TextView
+                    android:id="@+id/about_help"
+                    style="@style/about_text_style"
+                    android:layout_width="wrap_content"
+                    android:clickable="true"
+                    android:drawableLeft="@mipmap/about_help"
+                    android:text="@string/about_help" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:gravity="center_horizontal|right"
+                    android:padding="20dp"
+                    android:src="@mipmap/about_enter" />
+            </RelativeLayout>-->
+
+            <!--<View-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="1px"-->
+                <!--android:background="#50000000" />-->
+
+            <!--<RelativeLayout-->
+                <!--android:id="@+id/propose_layout"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:onClick="propose">-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/about_propose"-->
+                    <!--style="@style/about_text_style"-->
+                    <!--android:drawableLeft="@mipmap/about_propose"-->
+                    <!--android:text="@string/about_propose" />-->
+
+                <!--<ImageView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:layout_alignParentRight="true"-->
+                    <!--android:layout_centerVertical="true"-->
+                    <!--android:gravity="center_horizontal|right"-->
+                    <!--android:padding="20dp"-->
+                    <!--android:src="@mipmap/about_enter" />-->
+            <!--</RelativeLayout>-->
+
+            <!--<View-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="1px"-->
+                <!--android:background="#50000000" />-->
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+
+</android.support.design.widget.CoordinatorLayout>
+

@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="@dimen/xt10dp"
+    android:background="@mipmap/popup_bg"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="@dimen/xt10dp">
+
+<!--
+    <TextView
+        android:id="@+id/dev_set"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/xt2dp"
+        android:layout_marginTop="@dimen/xt10dp"
+        android:padding="@dimen/xt3dp"
+        android:text="投屏设置"
+        android:textColor="@color/popup"
+        android:textSize="@dimen/xt15sp" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_margin="@dimen/xt3dp"
+        android:background="@color/light_white" />
+
+
+    <TextView
+        android:id="@+id/dev_interaction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/xt2dp"
+        android:layout_marginTop="@dimen/xt5dp"
+        android:padding="@dimen/xt3dp"
+        android:text="任易屏终端互动"
+        android:textColor="@color/popup"
+        android:textSize="@dimen/xt15sp" />
+-->
+
+</LinearLayout>

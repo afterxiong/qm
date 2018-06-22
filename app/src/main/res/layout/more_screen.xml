@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="80dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@mipmap/popup_bg2"
+    android:gravity="center"
+    android:padding="10dp"
+    android:layout_marginLeft="10dp"
+     >
+
+        <TextView
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textselector"
+            android:id="@+id/screen_file"
+            android:text="快传"/>
+
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:id="@+id/line1"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:orientation="vertical"
+            android:background="@color/xtb0b0b0"
+            android:visibility="visible"></LinearLayout>
+
+        <TextView
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textselector"
+            android:id="@+id/screen_fx"
+            android:text="分享"/>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:id="@+id/line2"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:orientation="vertical"
+            android:background="@color/xtb0b0b0"
+            android:visibility="visible"></LinearLayout>
+
+        <TextView
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textselector"
+            android:id="@+id/screen_tp"
+            android:text="投屏"/>
+
+
+    </LinearLayout>
+

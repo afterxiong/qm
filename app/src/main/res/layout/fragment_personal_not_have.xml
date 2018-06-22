@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/background"
+    android:orientation="vertical"
+    android:paddingLeft="10dp">
+
+
+    <TextView
+        android:id="@+id/have_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="8dp"
+        android:paddingTop="12dp"
+        android:text="姓名"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/have_create_team"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:drawableLeft="@mipmap/mine_create_team"
+        android:drawablePadding="6dp"
+        android:gravity="center_vertical"
+        android:padding="10dp"
+        android:text="创建团队" />
+
+    <TextView
+        android:id="@+id/have_add_team"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@mipmap/mine_add_tean"
+        android:gravity="center_vertical"
+        android:drawablePadding="6dp"
+        android:padding="10dp"
+        android:paddingTop="10dp"
+        android:text="加入团队" />
+
+</LinearLayout>

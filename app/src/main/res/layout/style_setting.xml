@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:background="@color/white">
+
+    <LinearLayout
+        android:padding="@dimen/xt8dp"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/xt100dp"
+        android:layout_marginTop="@dimen/xt10dp"
+        android:orientation="vertical" >
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="@dimen/xt18sp"
+        android:textColor="@android:color/black"
+        android:text="个性化设置"/>
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+           <ImageView
+            android:layout_marginLeft="@dimen/xt5dp"
+            android:id="@+id/iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/name_setting"/>
+            <TextView android:layout_width="wrap_content"
+                android:textSize="@dimen/xt15sp"
+                android:layout_height="wrap_content"
+                android:text="@string/namesetting"
+                android:textColor="@color/gray"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/iv"/>
+        </RelativeLayout>
+       <com.shareshow.airpc.widget.LineEditText
+            android:id="@+id/et"
+            style="?android:attr/textViewStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@null"
+            android:layout_marginBottom="@dimen/xt12dp"
+            android:ems="10"
+            android:layout_gravity="center_horizontal"
+            android:hint=""
+            android:textColor="@color/gray_line"
+            android:maxLength="10"
+            android:gravity="center|bottom"
+            android:singleLine="true"
+            android:text="@null" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/xt130dp"
+        android:padding="@dimen/xt8dp"
+        android:orientation="vertical" >
+        <RelativeLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+           <ImageView 
+            android:id="@+id/iv3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/xt5dp" 
+            android:src="@mipmap/link_mode"/>
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/settingsearch"
+                android:textSize="@dimen/xt15sp"
+                android:textColor="@color/gray"
+                android:id="@+id/settingMode"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/iv3"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/xt10sp"
+                android:singleLine="true"
+                android:textColor="@color/gray"
+                android:layout_centerVertical="true"
+                android:text=" (连接模式可在系统设置里进行修改)"
+                android:layout_toRightOf="@id/settingMode"/>
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_marginTop="@dimen/xt10dp"
+             android:layout_width="fill_parent"
+            android:layout_height="@dimen/xt110dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/scanConn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="@dimen/xt12dp"
+            >
+          <CheckBox
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:button="@drawable/check_button"
+          android:id="@+id/saomiao"
+          android:layout_marginLeft="@dimen/xt40dp"
+                />
+            <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/privateMode"
+          android:textColor="@color/gray_line"
+          android:textSize="@dimen/xt13sp"
+          android:layout_marginLeft="@dimen/xt6dp"
+
+              />
+        </LinearLayout>
+            <LinearLayout
+                android:id="@+id/autoConn"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      android:gravity="center_vertical"
+      android:layout_marginBottom="@dimen/xt12dp"
+      >
+    <CheckBox 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:button="@drawable/check_button"
+    android:id="@+id/auto"
+    android:layout_marginLeft="@dimen/xt40dp"
+          />
+      <TextView 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/publicMode"
+    android:textColor="@color/gray_line"
+    android:textSize="@dimen/xt13sp"
+    android:layout_marginLeft="@dimen/xt6dp"
+        />
+  </LinearLayout>
+            
+  </LinearLayout>
+ 
+  </LinearLayout>
+        <TextView
+            android:id="@+id/ensure"
+            android:clickable="true"
+            android:layout_marginBottom="@dimen/xt10dp"
+            android:background="@mipmap/button_12"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="@dimen/xt60dp"
+            android:layout_height="@dimen/xt25dp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:text="完成"/>
+        
+</LinearLayout>
+    
+

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="10dp"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/aciotn_binding_devices"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:padding="12dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@mipmap/personal_binding_device"
+            android:drawablePadding="10dp"
+            android:gravity="center_vertical"
+            android:text="绑定设备" />
+
+        <TextView
+            android:id="@+id/bind_device_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:drawableRight="@mipmap/mine_enter" />
+    </RelativeLayout>
+
+    <View
+        android:background="@color/xtdddddd"
+        android:layout_width="match_parent"
+        android:layout_height="1px"/>
+
+    <RelativeLayout
+        android:id="@+id/action_helper_propose"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/background"
+        android:gravity="center_vertical"
+        android:padding="12dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@mipmap/personal_helper_propose"
+            android:drawablePadding="10dp"
+            android:gravity="center_vertical"
+            android:text="帮助与反馈" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:src="@mipmap/mine_enter" />
+    </RelativeLayout>
+
+    <View
+        android:background="@color/xtdddddd"
+        android:layout_width="match_parent"
+        android:layout_height="1px"/>
+
+    <RelativeLayout
+        android:id="@+id/action_about"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/background"
+        android:gravity="center_vertical"
+        android:padding="12dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@mipmap/personal_about"
+            android:drawablePadding="10dp"
+            android:gravity="center_vertical"
+            android:text="关于启目" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:src="@mipmap/mine_enter" />
+    </RelativeLayout>
+
+    <View
+        android:background="@color/xtdddddd"
+        android:layout_width="match_parent"
+        android:layout_height="1px"/>
+
+
+    <RelativeLayout
+        android:id="@+id/action_new_message"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_height="50dp"
+        android:background="@color/background"
+        android:gravity="center_vertical"
+        android:padding="12dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@mipmap/mine_new_message"
+            android:drawablePadding="10dp"
+            android:gravity="center_vertical"
+            android:text="新消息通知" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:src="@mipmap/mine_enter" />
+    </RelativeLayout>
+
+
+    <View
+        android:background="@color/xtdddddd"
+        android:layout_width="match_parent"
+        android:layout_height="1px"/>
+
+
+    <RelativeLayout
+        android:id="@+id/action_setting"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/background"
+        android:gravity="center_vertical"
+        android:padding="12dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@mipmap/personal_setting"
+            android:drawablePadding="10dp"
+            android:gravity="center_vertical"
+            android:text="设置" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:src="@mipmap/mine_enter" />
+    </RelativeLayout>
+
+</LinearLayout>

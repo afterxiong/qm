@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.shareshow.aide.widget.DirectionKeyView
+        android:id="@+id/direction_key"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:background="@mipmap/control_direction_key_bg">
+
+        <Button
+            android:id="@+id/direction_top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/direction_center"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="100dp"
+            android:background="@drawable/dir_bg1"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/direction_left"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="100dp"
+            android:layout_marginTop="100dp"
+            android:layout_toStartOf="@+id/direction_center"
+            android:background="@drawable/dir_bg4"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/direction_right"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="100dp"
+            android:layout_marginTop="100dp"
+            android:layout_toEndOf="@+id/direction_center"
+            android:background="@drawable/dir_bg2"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/direction_buttom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@+id/direction_center"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="100dp"
+            android:background="@drawable/dir_bg3"
+            android:visibility="gone" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/direction_center"
+            android:layout_alignStart="@+id/textView2"
+            android:background="@mipmap/direction_top" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView3"
+            android:layout_alignBottom="@+id/textView3"
+            android:layout_toStartOf="@+id/direction_center"
+            android:background="@mipmap/direction_left" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/direction_center"
+            android:background="@mipmap/direction_right" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/direction_center"
+            android:layout_centerHorizontal="true"
+            android:background="@mipmap/direction_buttom" />
+
+        <ImageView
+            android:id="@+id/direction_center"
+            android:layout_width="@dimen/xt100dp"
+            android:layout_height="@dimen/xt100dp"
+            android:layout_centerInParent="true"
+            android:layout_margin="50dp"
+            android:src="@drawable/direction_center"
+            android:visibility="visible" />
+
+    </com.shareshow.aide.widget.DirectionKeyView>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="@dimen/xt10dp"
+        android:layout_marginRight="@dimen/xt10dp"
+        android:padding="10dp"
+        android:layout_weight="2"
+        android:orientation="vertical"
+        android:background="@mipmap/control_function_key_bg">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+            <LinearLayout
+                android:id="@+id/yaokong_memu"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center_vertical"
+                android:background="@drawable/drawable_function_key">
+                <ImageView
+                    style="@style/remote_control_but_icon_style"
+                    android:src="@mipmap/control_menu_1" />
+                <TextView
+                    style="@style/remote_control_but_text_style"
+                    android:text="菜单"/>
+            </LinearLayout>
+            <View
+                android:layout_width="1px"
+                android:layout_height="match_parent"
+                android:background="#cccccc"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"/>
+            <LinearLayout
+                android:id="@+id/yaokong_home"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center_vertical"
+                android:background="@drawable/drawable_function_key">
+                <ImageView
+                    style="@style/remote_control_but_icon_style"
+                    android:src="@mipmap/control_home_page" />
+                <TextView
+                    style="@style/remote_control_but_text_style"
+                    android:text="主页"/>
+            </LinearLayout>
+            <View
+                android:layout_width="1px"
+                android:layout_height="match_parent"
+                android:background="#cccccc"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"/>
+            <LinearLayout
+                android:id="@+id/yaokong_back"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center_vertical"
+                android:background="@drawable/drawable_function_key">
+                <ImageView
+                    style="@style/remote_control_but_icon_style"
+                    android:src="@mipmap/control_back" />
+                <TextView
+                    style="@style/remote_control_but_text_style"
+                    android:text="返回"/>
+
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="#cccccc"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:layout_marginRight="5dp"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="#cccccc"
+                android:layout_weight="1"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="#cccccc"
+                android:layout_weight="1"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1" >
+            <LinearLayout
+                android:id="@+id/voice_minus"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center_vertical"
+                android:background="@drawable/drawable_function_key">
+                <ImageView
+                    style="@style/remote_control_but_icon_style"
+                    android:src="@mipmap/control_volume_minus"/>
+                <TextView
+                    style="@style/remote_control_but_text_style"
+                    android:text="音量减"/>
+
+            </LinearLayout>
+            <View
+                android:layout_width="1px"
+                android:layout_height="match_parent"
+                android:background="#cccccc"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"/>
+            <LinearLayout
+                android:id="@+id/voice_static"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center_vertical"
+                android:background="@drawable/drawable_function_key">
+                <ImageView
+                    style="@style/remote_control_but_icon_style"
+                    android:src="@mipmap/control_static_volume"/>
+                <TextView
+                    style="@style/remote_control_but_text_style"
+                    android:text="静音"/>
+            </LinearLayout>
+            <View
+                android:layout_width="1px"
+                android:layout_height="match_parent"
+                android:background="#cccccc"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"/>
+            <LinearLayout
+                android:id="@+id/voice_pluse"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center_vertical"
+                android:background="@drawable/drawable_function_key">
+                <ImageView
+                    style="@style/remote_control_but_icon_style"
+                    android:src="@mipmap/control_volume_add"/>
+               <TextView
+                    style="@style/remote_control_but_text_style"
+                    android:text="音量加"/>
+        </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

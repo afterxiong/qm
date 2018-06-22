@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:wheel="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/xt77dp"
+            android:background="#00CCBA"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/xt24dp">
+
+                <LinearLayout
+                    android:id="@+id/back"
+                    android:layout_width="@dimen/xt70dp"
+                    android:layout_height="@dimen/xt40dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/xt10dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <ImageView
+                        android:layout_width="@dimen/xt25dp"
+                        android:layout_height="@dimen/xt25dp"
+                        android:src="@mipmap/back_icon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@null"
+                        android:text="@string/back"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/xt18sp" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="@string/app_name"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/xt18dp" />
+
+                <Button
+                    android:id="@+id/popup"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/xt10dp"
+                    android:background="@null"
+                    android:text="取消"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/xt18sp"
+                    android:visibility="gone" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/xt50dp"
+            android:layout_marginLeft="@dimen/xt5dp"
+            android:layout_marginRight="@dimen/xt5dp"
+            android:layout_marginTop="@dimen/xt10dp"
+            android:background="@drawable/file_top"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/local_file"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="1dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginTop="1dp"
+                android:layout_weight="1"
+                android:background="@drawable/file_left_bg"
+                android:gravity="center"
+                android:text="@string/localfile"
+                android:textColor="@color/black"
+                android:textSize="@dimen/xt18sp" />
+
+            <TextView
+                android:layout_width="1dp"
+                android:layout_height="fill_parent"
+                android:background="#00ab9c" />
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/remote_device"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="1dp"
+                    android:background="@null"
+                    android:ellipsize="middle"
+                    android:gravity="center"
+                    android:paddingLeft="@dimen/xt30dp"
+                    android:paddingRight="@dimen/xt30dp"
+                    android:singleLine="true"
+                    android:text="@string/remoteDevice"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/xt18sp" />
+
+                <LinearLayout
+                    android:id="@+id/show_arrow"
+                    android:layout_width="@dimen/xt30dp"
+                    android:layout_height="@dimen/xt45dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <ImageView
+                        android:layout_width="@dimen/xt15dp"
+                        android:layout_height="@dimen/xt15dp"
+                        android:src="@mipmap/arrow_down" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/arrow_popup"
+                    android:layout_width="1dp"
+                    android:layout_height="1dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/xt10dp" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/frame"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="@dimen/xt5dp"
+            android:layout_weight="1"></FrameLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/popup_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/xt77dddddd"
+        android:visibility="gone" />
+</RelativeLayout>

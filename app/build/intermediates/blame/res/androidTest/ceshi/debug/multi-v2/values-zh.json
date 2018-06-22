@@ -1,0 +1,68 @@
+{
+    "logs": [
+        {
+            "outputFile": "G:\\developer\\Y2018\\qmShareShow3.0.4\\app\\build\\intermediates\\incremental\\mergeCeshiDebugAndroidTestResources\\merged.dir\\values-zh\\values-zh.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\xiongchengguang\\.gradle\\caches\\transforms-1\\files-1.1\\SmartRefreshLayout-1.0.5.1.aar\\06edd24fa9a82c523626553cc4c5deb2\\res\\values-zh\\values-zh.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,163",
+                        "endColumns": "107,91",
+                        "endOffsets": "158,250"
+                    },
+                    "to": {
+                        "startLines": "15,16",
+                        "startColumns": "4,4",
+                        "startOffsets": "756,864",
+                        "endColumns": "107,91",
+                        "endOffsets": "859,951"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\xiongchengguang\\.gradle\\caches\\transforms-1\\files-1.1\\PhotoPicker-release.aar\\2d974559ab88532d8a853b941f50e993\\res\\values-zh\\values-zh.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,107,154,215,262,323,368,435,490,549,621,667,712",
+                        "endColumns": "51,46,60,46,60,44,66,54,58,71,45,44,43",
+                        "endOffsets": "102,149,210,257,318,363,430,485,544,616,662,707,751"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\BaiduNetdiskDownload\\qm\\qm\\qm\\app\\build\\intermediates\\incremental\\mergeCeshiDebugAndroidTestResources\\merged.dir\\values-zh\\values-zh.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\SmartRefreshLayout-1.0.5.1.aar\\84d60cbeae82b79518d8d3b645647bfc\\res\\values-zh\\values-zh.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,163",
+                        "endColumns": "107,91",
+                        "endOffsets": "158,250"
+                    },
+                    "to": {
+                        "startLines": "15,16",
+                        "startColumns": "4,4",
+                        "startOffsets": "756,864",
+                        "endColumns": "107,91",
+                        "endOffsets": "859,951"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\PhotoPicker-release.aar\\7535579d7d104c281f19408447f87050\\res\\values-zh\\values-zh.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,107,154,215,262,323,368,435,490,549,621,667,712",
+                        "endColumns": "51,46,60,46,60,44,66,54,58,71,45,44,43",
+                        "endOffsets": "102,149,210,257,318,363,430,485,544,616,662,707,751"
+                    }
+                }
+            ]
+        }
+    ]
+}

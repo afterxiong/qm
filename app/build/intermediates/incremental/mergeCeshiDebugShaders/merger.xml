@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="G:\developer\Y2018\qmShareShow3.0.4\app\src\main\shaders"/></dataSet><dataSet config="ceshi"><source path="G:\developer\Y2018\qmShareShow3.0.4\app\src\ceshi\shaders"/></dataSet><dataSet config="debug"><source path="G:\developer\Y2018\qmShareShow3.0.4\app\src\debug\shaders"/></dataSet><dataSet config="ceshiDebug"><source path="G:\developer\Y2018\qmShareShow3.0.4\app\src\ceshiDebug\shaders"/></dataSet></merger>

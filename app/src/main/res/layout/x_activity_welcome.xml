@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#fdfefa">
+
+
+    <!--<RelativeLayout-->
+        <!--android:id="@+id/bottomRl"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentTop="true">-->
+
+        <ImageView
+            android:id="@+id/bottomIcon"
+            android:layout_marginTop="@dimen/xt100dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="@mipmap/logo_bottom"
+            />
+
+        <!--<TextView-->
+            <!--android:id="@+id/skip"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_alignParentRight="true"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:layout_margin="6dp"-->
+            <!--android:background="@drawable/ski_button_bg"-->
+            <!--android:paddingLeft="10dp"-->
+            <!--android:paddingRight="10dp"-->
+            <!--android:paddingTop="6dp"-->
+            <!--android:paddingBottom="6dp"-->
+            <!--android:text="跳过"-->
+            <!--android:textColor="@color/xt_white"-->
+            <!--android:visibility="gone"/>-->
+    <!--</RelativeLayout>-->
+
+    <!--<RelativeLayout-->
+        <!--android:id="@+id/adsRl"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="fill_parent"-->
+        <!--android:layout_above="@id/bottomRl">-->
+        <!---->
+    <!--</RelativeLayout>-->
+</RelativeLayout>

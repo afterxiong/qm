@@ -1,0 +1,40 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical" >
+ <LinearLayout
+        android:layout_height="match_parent"
+            android:layout_width="@dimen/xt180dp"
+        android:background="#40006960"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/name1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="@dimen/xt5dp"
+            android:text="@string/server_list"
+            android:textColor="@color/white"
+            android:textSize="@dimen/xt18sp" />
+          <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swipe_refresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        <ListView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/listserver"
+        android:cacheColorHint="#00000000"
+        android:listSelector="#00000000"
+        android:layout_marginRight="@dimen/xt5dp"
+        android:layout_marginLeft="@dimen/xt5dp"
+        android:divider="@null"
+        android:scrollbars="none"
+        ></ListView>
+ </android.support.v4.widget.SwipeRefreshLayout> 
+    </LinearLayout>
+</LinearLayout>

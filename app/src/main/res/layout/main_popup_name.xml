@@ -1,0 +1,104 @@
+<LinearLayout 
+         android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+    android:gravity="center"
+    
+    android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout 
+      
+    android:background="@drawable/linear_shap"
+         android:layout_width="match_parent"
+             android:gravity="center"
+              android:orientation="vertical"
+    android:layout_height="@dimen/xt160dp"
+        >
+     <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="@string/namesetting"
+        android:textSize="@dimen/xt18sp"  
+        android:textColor="@color/black"
+        android:gravity="center"
+      android:layout_weight="1.5"
+        />
+<!--         android:background="@drawable/skip" -->
+
+    
+           <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="@dimen/xt45dp"
+        
+        android:layout_marginRight="@dimen/xt45dp"
+         android:layout_weight="1.3"
+        >
+       	<TextView 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/name"
+    android:textColor="@color/xt575757"
+    android:textSize="@dimen/xt15sp"
+    />	
+  
+       <EditText 
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:background="@mipmap/sz_edit"
+         android:layout_marginLeft="@dimen/xt10dp"
+             android:textColor="@color/xt575757"
+    android:textSize="@dimen/xt15sp"
+    android:gravity="left|center_vertical"
+    android:paddingLeft="@dimen/xt3dp"
+    android:paddingTop="@dimen/xt3dp"
+    android:paddingBottom="@dimen/xt3dp"
+    android:singleLine="true"
+    android:id="@+id/edit"
+    android:ellipsize="middle"
+    android:maxLength="7"
+           />
+  
+          </LinearLayout>
+    
+   <TextView 
+       android:layout_width="fill_parent"
+       android:layout_height="0.5dp"
+       android:background="@color/gray_shadow"
+       />
+<LinearLayout 
+     android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+          android:layout_weight="1.4"
+          android:gravity="center"
+    >
+    <Button 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+   		android:id="@+id/comfirm"
+        android:background="@drawable/dialog_button1"
+        android:text="@string/save"
+        android:textSize="@dimen/xt15sp"
+        android:textColor="@color/blue"
+        />
+    <TextView 
+        android:layout_width="0.5dp"
+        android:layout_height="match_parent"
+        android:background="@color/gray_shadow"
+        />
+     <Button 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+   		android:id="@+id/cancel"
+       android:background="@drawable/dialog_button2"
+        android:text="@string/cancel"
+        android:textSize="@dimen/xt15sp"
+         android:textColor="@color/blue"
+      
+        />
+</LinearLayout>
+</LinearLayout>
+</LinearLayout>
+    

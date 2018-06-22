@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="@dimen/xt220dp"
+        android:layout_height="@dimen/xt130dp"
+        android:background="@drawable/linear_shap"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="请输入密码"
+            android:textColor="@color/black"
+            android:textSize="@dimen/xt18sp" />
+
+        <com.shareshow.airpc.widget.PasswordInputView
+
+
+            android:id="@+id/input"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/xt50dp"
+            android:layout_marginBottom="@dimen/xt15dp"
+            android:layout_marginLeft="@dimen/xt16dp"
+            android:layout_marginRight="@dimen/xt16dp"
+            android:background="@null"
+            android:cursorVisible="false"
+            android:digits="0123456789"
+            android:inputType="number"
+            android:maxLength="4"
+            android:padding="0dp"
+            custom:borderColor="@color/black"
+            custom:borderRadius="@dimen/custom_ev_border_radius"
+            custom:borderWidth="@dimen/custom_ev_border_width"
+            custom:passwordColor="@color/black"
+            custom:passwordLength="4"
+            custom:passwordWidth="@dimen/custom_ev_password_width" />
+    </LinearLayout>
+</LinearLayout>

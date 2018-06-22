@@ -1,0 +1,619 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/xtefefef"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?android:actionBarSize"
+        android:background="@color/colorPrimary">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@mipmap/back_icon"
+            android:textColor="@android:color/white"
+            android:gravity="center"
+            android:onClick="back"
+            android:drawablePadding="8dp"
+            android:textSize="16sp"
+          />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/settingTitle"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+    </android.support.v7.widget.Toolbar>
+
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="@dimen/xt10dp"-->
+        <!--android:orientation="vertical" >-->
+
+
+    <!--<TextView-->
+    <!--android:text="名称设置"-->
+        <!--android:layout_marginLeft="@dimen/xt10dp"-->
+    <!--android:textSize="@dimen/xt11sp"-->
+    <!--android:textColor="@color/gray"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content" />-->
+    <!--<LinearLayout-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="@dimen/xt35dp"-->
+        <!--android:layout_marginTop="@dimen/xt5dp"-->
+        <!--android:background="@mipmap/setting_bg2"-->
+        <!--android:gravity="center">-->
+        <!--<com.shareshow.airpc.widget.LineEditText-->
+            <!--android:id="@+id/et"-->
+            <!--style="?android:attr/textViewStyle"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="fill_parent"-->
+            <!--android:background="@null"-->
+            <!--android:layout_marginBottom="@dimen/xt8dp"-->
+            <!--android:ems="10"-->
+            <!--android:layout_gravity="center_horizontal"-->
+            <!--android:hint=""-->
+            <!--android:maxLength="10"-->
+            <!--android:textColor="@android:color/black"-->
+            <!--android:gravity="center|bottom"-->
+            <!--android:singleLine="true"-->
+            <!--android:text="@null" />-->
+    <!--</LinearLayout>-->
+
+    <!--</LinearLayout>-->
+    <TextView
+        android:text="投屏清晰度"
+        android:layout_marginTop="@dimen/xt10dp"
+        android:textSize="@dimen/xt11sp"
+        android:textColor="@color/gray"
+        android:layout_marginLeft="@dimen/xt10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/xt5dp"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/xt140dp"
+        android:background="@color/white"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:id="@+id/fluency"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/xt35dp">
+            <TextView
+                android:text="低"
+                android:layout_marginLeft="@dimen/xt10dp"
+                android:textColor="@color/black"
+                android:textSize="@dimen/xt15sp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:id="@+id/bt_0"
+                android:layout_marginRight="@dimen/xt20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+        <View
+            android:background="@color/xtefefef"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/xt1dp"/>
+        <RelativeLayout
+            android:id="@+id/default_"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/xt35dp">
+            <TextView
+                android:text="中"
+                android:layout_marginLeft="@dimen/xt10dp"
+                android:textColor="@color/black"
+                android:textSize="@dimen/xt15sp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:id="@+id/bt_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/xt20dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+        <View
+            android:background="@color/xtefefef"
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dp"/>
+        <RelativeLayout
+            android:id="@+id/distinct"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/xt35dp">
+            <TextView
+                android:layout_marginLeft="@dimen/xt10dp"
+                android:layout_centerVertical="true"
+                android:text="高"
+                android:textColor="@color/black"
+                android:textSize="@dimen/xt15sp"
+                android:layout_alignParentLeft="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:id="@+id/bt_2"
+                android:layout_marginRight="@dimen/xt20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+
+        <View
+            android:background="@color/xtefefef"
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dp"/>
+
+        <RelativeLayout
+            android:id="@+id/high_distinct"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/xt35dp">
+            <TextView
+                android:layout_marginLeft="@dimen/xt10dp"
+                android:layout_centerVertical="true"
+                android:text="超高"
+                android:textColor="@color/black"
+                android:textSize="@dimen/xt15sp"
+                android:layout_alignParentLeft="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:id="@+id/bt_3"
+                android:layout_marginRight="@dimen/xt20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+    <!--<TextView
+        android:text="网络环境"
+        android:layout_marginTop="@dimen/xt10dp"
+        android:textSize="@dimen/xt11sp"
+        android:textColor="@color/gray"
+        android:layout_marginLeft="@dimen/xt10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/xt5dp"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/xt105dp"
+        android:background="@color/white"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:id="@+id/net_good"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/xt35dp">
+            <TextView
+                android:text="较好"
+                android:layout_marginLeft="@dimen/xt10dp"
+                android:textColor="@color/black"
+                android:textSize="@dimen/xt15sp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:id="@+id/net_0"
+                android:layout_marginRight="@dimen/xt20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+        <View
+            android:background="@color/xtefefef"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/xt1dp"/>
+        <RelativeLayout
+            android:id="@+id/net_soso"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/xt35dp">
+            <TextView
+                android:text="一般"
+                android:layout_marginLeft="@dimen/xt10dp"
+                android:textColor="@color/black"
+                android:textSize="@dimen/xt15sp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:id="@+id/net_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/xt20dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+        <View
+            android:background="@color/xtefefef"
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dp"/>
+        <RelativeLayout
+            android:id="@+id/net_false"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/xt35dp">
+            <TextView
+                android:layout_marginLeft="@dimen/xt10dp"
+                android:layout_centerVertical="true"
+                android:text="较差"
+                android:textColor="@color/black"
+                android:textSize="@dimen/xt15sp"
+                android:layout_alignParentLeft="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:id="@+id/net_2"
+                android:layout_marginRight="@dimen/xt20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+
+    </LinearLayout>-->
+
+
+    <!--<LinearLayout-->
+        <!--android:layout_marginTop="@dimen/xt10dp"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="@dimen/xt140dp"-->
+        <!--android:background="@color/white"-->
+        <!--android:visibility="gone"-->
+        <!--android:orientation="vertical">-->
+        <!--<RelativeLayout-->
+           <!--android:layout_gravity="center"-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="@dimen/xt35dp">-->
+            <!--<TextView-->
+                <!--android:layout_marginLeft="@dimen/xt10dp"-->
+                <!--android:text="允许投屏内容被分享"-->
+                <!--android:textColor="@color/black"-->
+                <!--android:textSize="@dimen/xt15sp"-->
+                <!--android:layout_centerVertical="true"-->
+                <!--android:layout_alignParentLeft="true"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content" />-->
+            <!--<Switch-->
+                <!--android:id="@+id/chebox"-->
+                <!--android:textOn=""-->
+                <!--android:textOff=""-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:thumb="@drawable/white_thumb"-->
+                <!--android:track="@drawable/switch_btn"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginRight="@dimen/xt20dp"-->
+                <!--android:switchMinWidth="@dimen/xt40dp"-->
+                <!--android:layout_centerVertical="true"-->
+                <!--android:layout_alignParentRight="true"/>-->
+        <!--</RelativeLayout>-->
+        <!--<View-->
+            <!--android:background="@color/xtefefef"-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="@dimen/xt1dp"/>-->
+        <!--<RelativeLayout-->
+            <!--android:layout_gravity="center"-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="@dimen/xt35dp">-->
+            <!--<TextView-->
+                <!--android:text="满屏显示"-->
+                <!--android:layout_centerVertical="true"-->
+                <!--android:layout_marginLeft="@dimen/xt10dp"-->
+                <!--android:textColor="@color/black"-->
+                <!--android:textSize="@dimen/xt15sp"-->
+                <!--android:layout_alignParentLeft="true"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content" />-->
+            <!--<Switch-->
+                <!--android:textOn=""-->
+                <!--android:textOff=""-->
+                <!--android:id="@+id/expand"-->
+                <!--android:switchMinWidth="@dimen/xt40dp"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_centerVertical="true"-->
+                <!--android:thumb="@drawable/white_thumb"-->
+                <!--android:track="@drawable/switch_btn"-->
+                <!--android:layout_marginRight="@dimen/xt20dp"-->
+                <!--android:layout_alignParentRight="true"/>-->
+        <!--</RelativeLayout>-->
+        <!--<View-->
+            <!--android:background="@color/xtefefef"-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="@dimen/xt1dp"/>-->
+        <!--<RelativeLayout-->
+            <!--android:layout_gravity="center"-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="@dimen/xt35dp">-->
+            <!--<TextView-->
+                <!--android:text="打开音频"-->
+                <!--android:layout_centerVertical="true"-->
+                <!--android:layout_marginLeft="@dimen/xt10dp"-->
+                <!--android:textColor="@color/black"-->
+                <!--android:textSize="@dimen/xt15sp"-->
+                <!--android:layout_alignParentLeft="true"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content" />-->
+            <!--<Switch-->
+                <!--android:textOn=""-->
+                <!--android:textOff=""-->
+                <!--android:id="@+id/audio_ck"-->
+                <!--android:switchMinWidth="@dimen/xt40dp"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_centerVertical="true"-->
+                <!--android:thumb="@drawable/white_thumb"-->
+                <!--android:track="@drawable/switch_btn"-->
+                <!--android:layout_marginRight="@dimen/xt20dp"-->
+                <!--android:layout_alignParentRight="true"/>-->
+        <!--</RelativeLayout>-->
+        <!--<View-->
+            <!--android:background="@color/xtefefef"-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="@dimen/xt1dp"/>-->
+        <!--<RelativeLayout-->
+            <!--android:gravity="center"-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="@dimen/xt35dp">-->
+            <!--<TextView-->
+                <!--android:layout_marginLeft="@dimen/xt10dp"-->
+                <!--android:layout_centerVertical="true"-->
+                <!--android:text="开启悬窗"-->
+                <!--android:textColor="@color/black"-->
+                <!--android:textSize="@dimen/xt15sp"-->
+                <!--android:layout_alignParentLeft="true"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content" />-->
+            <!--<Switch-->
+                <!--android:textOn=""-->
+                <!--android:textOff=""-->
+                <!--android:switchMinWidth="@dimen/xt40dp"-->
+                <!--android:id="@+id/float_window_selector"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_centerVertical="true"-->
+                <!--android:thumb="@drawable/white_thumb"-->
+                <!--android:track="@drawable/switch_btn"-->
+                <!--android:layout_marginRight="@dimen/xt20dp"-->
+                <!--android:layout_alignParentRight="true"/>-->
+        <!--</RelativeLayout>-->
+
+    <!--</LinearLayout>-->
+    <!--<TextView-->
+        <!--android:layout_marginLeft="@dimen/xt10dp"-->
+        <!--android:text="搜索设置"-->
+        <!--android:textSize="@dimen/xt11sp"-->
+        <!--android:textColor="@color/gray"-->
+        <!--android:layout_marginTop="@dimen/xt10dp"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content" />-->
+
+    <!--<LinearLayout-->
+    <!--android:layout_marginTop="@dimen/xt5dp"-->
+    <!--android:layout_width="fill_parent"-->
+    <!--android:layout_height="@dimen/xt70dp"-->
+    <!--android:background="@color/white"-->
+    <!--android:orientation="vertical">-->
+    <!--<RelativeLayout-->
+        <!--android:id="@+id/scan_connect"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="@dimen/xt35dp">-->
+        <!--<TextView-->
+            <!--android:text="@string/privateMode"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:layout_marginLeft="@dimen/xt10dp"-->
+            <!--android:textColor="@color/black"-->
+            <!--android:textSize="@dimen/xt15sp"-->
+            <!--android:layout_alignParentLeft="true"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content" />-->
+        <!--<ImageView-->
+            <!--android:id="@+id/isScan_ck"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:layout_marginRight="@dimen/xt20dp"-->
+            <!--android:layout_alignParentRight="true"/>-->
+    <!--</RelativeLayout>-->
+    <!--<View-->
+        <!--android:background="@color/xtefefef"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="@dimen/xt1dp"/>-->
+    <!--<RelativeLayout-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="@dimen/xt35dp"-->
+        <!--android:id="@+id/auto_connect">-->
+        <!--<TextView-->
+            <!--android:layout_marginLeft="@dimen/xt10dp"-->
+            <!--android:text="@string/publicMode"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:textColor="@color/black"-->
+            <!--android:textSize="@dimen/xt15sp"-->
+            <!--android:layout_alignParentLeft="true"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content" />-->
+        <!--<ImageView-->
+            <!--android:id="@+id/auto_ck"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:layout_marginRight="@dimen/xt20dp"-->
+            <!--android:layout_alignParentRight="true"/>-->
+    <!--</RelativeLayout>-->
+
+<!--</LinearLayout>-->
+    <TextView
+        android:layout_marginLeft="@dimen/xt10dp"
+        android:text="文件接收设置"
+        android:textSize="@dimen/xt11sp"
+        android:textColor="@color/gray"
+        android:layout_marginTop="@dimen/xt10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/xt5dp"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/xt70dp"
+        android:background="@color/white"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:id="@+id/file_open"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/xt35dp">
+            <TextView
+                android:text="自动打开"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/xt10dp"
+                android:textColor="@color/black"
+                android:textSize="@dimen/xt15sp"
+                android:layout_alignParentLeft="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:id="@+id/file_0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/xt20dp"
+                android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+        <View
+            android:background="@color/xtefefef"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/xt1dp"/>
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/xt35dp"
+            android:id="@+id/hander_open">
+            <TextView
+                android:layout_marginLeft="@dimen/xt10dp"
+                android:text="手动打开"
+                android:layout_centerVertical="true"
+                android:textColor="@color/black"
+                android:textSize="@dimen/xt15sp"
+                android:layout_alignParentLeft="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:id="@+id/file_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/xt20dp"
+                android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+    <!--<RelativeLayout-->
+    <!--android:layout_width="fill_parent"-->
+    <!--android:layout_height="@dimen/xt35dp"-->
+    <!--android:background="@color/white"-->
+    <!--android:layout_marginTop="@dimen/xt20dp"-->
+    <!--android:id="@+id/float_window_x">-->
+
+    <!--<TextView-->
+    <!--android:layout_marginLeft="@dimen/xt10dp"-->
+    <!--android:text="@string/floatWindow"-->
+    <!--android:layout_centerVertical="true"-->
+    <!--android:textColor="@color/black"-->
+    <!--android:textSize="@dimen/xt15sp"-->
+    <!--android:layout_alignParentLeft="true"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content" />-->
+    <!--<ImageView-->
+    <!--android:id="@+id/float_window_img"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_centerVertical="true"-->
+    <!--android:layout_marginRight="@dimen/xt20dp"-->
+    <!--android:layout_alignParentRight="true"/>-->
+    <!--</RelativeLayout>-->
+
+    <!--<RelativeLayout-->
+        <!--android:layout_marginTop="@dimen/xt20dp"-->
+        <!--android:background="@color/white"-->
+        <!--android:id="@+id/rl_carche"-->
+        <!--android:clickable="true"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="@dimen/xt35dp"-->
+        <!--android:scrollbars="none"-->
+        <!--android:layout_marginBottom="@dimen/xt20dp">-->
+        <!--<TextView-->
+            <!--android:layout_marginLeft="@dimen/xt10dp"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:textSize="@dimen/xt15dp"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:layout_alignParentLeft="true"-->
+            <!--android:textColor="@color/black"-->
+            <!--android:text="清除缓存"/>-->
+        <!--<TextView-->
+            <!--android:id="@+id/tv_carche"-->
+            <!--android:layout_marginRight="@dimen/xt20dp"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:textSize="@dimen/xt15sp"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:layout_alignParentRight="true"-->
+            <!--android:textColor="@color/gray"-->
+            <!--android:text="20"/>-->
+    <!--</RelativeLayout>-->
+
+    <!--<TextView-->
+        <!--android:layout_margin="10dp"-->
+        <!--android:background="@color/colorPrimary"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:gravity="center"-->
+        <!--android:textSize="15sp"-->
+        <!--android:id="@+id/bind_device"-->
+        <!--android:textColor="@color/white"-->
+        <!--android:text="绑定我的任易屏设备"-->
+        <!--/>-->
+
+    <!--<TextView-->
+        <!--android:layout_marginBottom="10dp"-->
+        <!--android:layout_marginLeft="10dp"-->
+        <!--android:layout_marginRight="10dp"-->
+        <!--android:background="@color/colorPrimary"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:gravity="center"-->
+        <!--android:textSize="15sp"-->
+        <!--android:id="@+id/register_server"-->
+        <!--android:textColor="@color/white"-->
+        <!--android:text="无设备注册到平台"/>-->
+
+
+</LinearLayout>
+
+

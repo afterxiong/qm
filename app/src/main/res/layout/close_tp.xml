@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/xt190dp"
+    android:layout_height="@dimen/xt130dp"
+    android:background="@drawable/linear_shap"
+    android:orientation="vertical" >
+    
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="@dimen/xt18dp"
+        android:textColor="@color/black"
+        android:text="@string/close_tp"
+        
+        android:layout_marginTop="@dimen/xt20dp"
+        />
+
+    <Button 
+        android:layout_width="@dimen/xt150dp"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/xt18dp"
+        android:layout_gravity="center"
+         android:id="@+id/close_tp"
+        android:textColor="@color/black"
+        android:padding="@dimen/xt10dp"
+        android:background="@drawable/retry_shap"
+        android:layout_marginTop="@dimen/xt20dp"
+        android:text="确\t\t定"
+        android:layout_marginBottom="@dimen/xt10dp"
+        />
+</LinearLayout>

@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:wheel="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/xt15dp"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/document"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="@dimen/xt50dp"
+                android:layout_height="@dimen/xt50dp"
+                android:src="@mipmap/local_4img1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/xt5dp"
+                android:text="@string/document"
+                android:textColor="@color/black"
+                android:textSize="@dimen/xt10sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/img"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="@dimen/xt50dp"
+                android:layout_height="@dimen/xt50dp"
+                android:src="@mipmap/local_4img2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/xt5dp"
+                android:text="@string/picture"
+                android:textColor="@color/black"
+                android:textSize="@dimen/xt10sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/video"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="@dimen/xt50dp"
+                android:layout_height="@dimen/xt50dp"
+                android:src="@mipmap/local_4img3" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/xt5dp"
+                android:text="@string/video"
+                android:textColor="@color/black"
+                android:textSize="@dimen/xt10sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:background="@color/file_line"
+        android:layout_height="5dp" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/xt10dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="@dimen/xt10dp"
+            android:background="@color/xtb0b0b0"
+            tools:ignore="Suspicious0dp" />
+
+        <TextView
+            android:id="@+id/textname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/xt5dp"
+            android:layout_marginRight="@dimen/xt5dp"
+            android:text="文档"
+            android:textColor="@color/black"
+            android:textSize="@dimen/xt15sp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dp"
+            android:layout_weight="1"
+            android:layout_marginRight="@dimen/xt10dp"
+            android:background="@color/xtb0b0b0" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center">
+
+        <com.shareshow.airpc.widget.ProgressWheel
+            android:id="@+id/progress_wheel"
+            android:layout_width="@dimen/xt200dp"
+            android:layout_height="@dimen/xt200dp"
+            android:layout_centerHorizontal="true"
+            wheel:matProg_barColor="@color/xt00ab9c"
+            wheel:matProg_progressIndeterminate="true" />
+
+
+        <android.support.v4.widget.SwipeRefreshLayout
+            android:id="@+id/swipeRefresh"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1">
+                    <TextView
+                        android:id="@+id/text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:textColor="@color/gray"
+                        android:textSize="@dimen/xt18sp"
+                        android:visibility="gone" />
+            <ListView
+            android:id="@+id/list"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="@dimen/xt5dp"
+            android:cacheColorHint="#00000000"
+            android:listSelector="@null"
+            android:divider="@null"
+            android:scrollbars="none" 
+             >
+
+                </ListView>
+                </RelativeLayout>
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/xt60dp"
+                    android:background="@mipmap/file_buttom"
+                    android:orientation="horizontal"
+                    android:layout_alignParentBottom="true"
+                    android:id="@+id/buttom"
+                    android:visibility="gone"
+                    >
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:padding="@dimen/xt3dp"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        >
+                        <ImageView
+                            android:layout_width="@dimen/xt55dp"
+                            android:id="@+id/share"
+                            android:layout_height="@dimen/xt55dp"
+                            android:background="@drawable/sdcard_share"
+                            />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:padding="@dimen/xt3dp"
+                        android:id="@+id/show_upLoad"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        >
+                        <ImageView
+                            android:id="@+id/up_load"
+                            android:layout_width="@dimen/xt50dp"
+                            android:layout_height="@dimen/xt50dp"
+                            android:background="@drawable/up_load_bg"
+                            />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:padding="@dimen/xt3dp"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        >
+                        <ImageView
+                            android:id="@+id/selectAll"
+                            android:layout_width="@dimen/xt50dp"
+                            android:layout_height="@dimen/xt50dp"
+                            android:background="@drawable/choose_all_bg"
+                            />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v4.widget.SwipeRefreshLayout>
+
+
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

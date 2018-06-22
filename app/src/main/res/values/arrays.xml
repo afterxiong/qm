@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="loading_anim">
+        <item>@drawable/loading_1</item>
+        <item>@drawable/loading_2</item>
+        <item>@drawable/loading_3</item>
+        <item>@drawable/loading_4</item>
+        <item>@drawable/loading_5</item>
+        <item>@drawable/loading_6</item>
+        <item>@drawable/loading_7</item>
+        <item>@drawable/loading_8</item>
+        <item>@drawable/loading_9</item>
+        <item>@drawable/loading_10</item>
+        <item>@drawable/loading_11</item>
+        <item>@drawable/loading_12</item>
+        <item>@drawable/loading_13</item>
+        <item>@drawable/loading_14</item>
+        <item>@drawable/loading_15</item>
+        <item>@drawable/loading_16</item>
+        <item>@drawable/loading_17</item>
+        <item>@drawable/loading_18</item>
+        <item>@drawable/loading_19</item>
+        <item>@drawable/loading_20</item>
+        <item>@drawable/loading_21</item>
+        <item>@drawable/loading_22</item>
+        <item>@drawable/loading_23</item>
+        <item>@drawable/loading_24</item>
+        <item>@drawable/loading_25</item>
+        <item>@drawable/loading_26</item>
+        <item>@drawable/loading_27</item>
+        <item>@drawable/loading_28</item>
+        <item>@drawable/loading_29</item>
+        <item>@drawable/loading_30</item>
+        <item>@drawable/loading_31</item>
+        <item>@drawable/loading_32</item>
+        <item>@drawable/loading_33</item>
+        <item>@drawable/loading_34</item>
+        <item>@drawable/loading_35</item>
+        <item>@drawable/loading_36</item>
+        <item>@drawable/loading_37</item>
+        <item>@drawable/loading_38</item>
+        <item>@drawable/loading_39</item>
+        <item>@drawable/loading_40</item>
+        <item>@drawable/loading_41</item>
+        <item>@drawable/loading_42</item>
+        <item>@drawable/loading_43</item>
+        <item>@drawable/loading_44</item>
+        <item>@drawable/loading_45</item>
+    </string-array>
+</resources>

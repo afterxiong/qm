@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+   <!-- toast显示窗体的背景颜色 -->
+    <solid android:color="#4f5555"/>
+    <!-- <stroke android:width="@dimen/xt1dp"
+        android:color="#FFFFFFFF"/> -->
+    <padding android:bottom="@dimen/xt7dp"
+        android:left="@dimen/xt20dp"
+        android:right="@dimen/xt20dp"
+        android:top="@dimen/xt7dp"/>
+    <corners android:radius="@dimen/xt90dp"/>
+</shape>

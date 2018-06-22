@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@mipmap/back_icon"
+            android:textColor="@android:color/white"
+            android:gravity="center"
+            android:onClick="back"
+            android:drawablePadding="8dp"
+            android:textSize="16sp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/about_help"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+    </android.support.v7.widget.Toolbar>
+
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="vertical"
+           >
+
+           <ImageView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+
+               android:layout_margin="@dimen/xt10dp"
+               android:id="@+id/phone"
+               />
+
+           <ScrollView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content">
+        <LinearLayout
+            android:id="@+id/phone_to_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/strategy1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/xt10dp"
+                android:onClick="strategy1"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/xt16sp"
+                        android:textColor="@color/gray_line"
+                        android:text="  1、"/>
+
+                    <TextView
+                        android:id="@+id/hreader1"
+                        style="@style/help_text_style"
+                        android:text="@string/help_strategy_hreader_1" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/content1_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/xt10dp"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <TextView
+                        style="@style/help_content_style"
+                        android:text="@string/help_strategy_content_1" />
+
+                    <TextView
+                        style="@style/help_content_style"
+                        android:text="@string/help_strategy_content_1_1" />
+
+                    <TextView
+                        style="@style/help_content_style"
+                        android:text="@string/help_strategy_content_1_2" />
+                    <TextView
+                        style="@style/help_content_style"
+                        android:text="@string/propose_nowifi" />
+
+                    <TextView
+                        style="@style/help_content_style"
+                        android:text="@string/propose_nowifi_sugg" />
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/strategy2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/xt10dp"
+                android:onClick="strategy2"
+                android:orientation="vertical"
+                android:text="@string/help_strategy_hreader_1">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/xt16sp"
+                        android:textColor="@color/gray_line"
+                        android:text="  2、"/>
+                    <TextView
+                        android:id="@+id/hreader2"
+                        style="@style/help_text_style"
+                        android:text="@string/propose_qu2" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/content2_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/xt10dp"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <TextView
+                        style="@style/help_content_style"
+                        android:text="@string/propose_ans2" />
+
+                    <!--   <TextView
+                          style="@style/help_content_style"
+                          android:text="@string/help_strategy_content_1_1" />
+
+                      <TextView
+                          style="@style/help_content_style"
+                          android:text="@string/help_strategy_content_1_2" /> -->
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/strategy3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/xt10dp"
+                android:onClick="strategy3"
+                android:orientation="vertical"
+                android:text="@string/help_strategy_hreader_1"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/hreader3"
+                    style="@style/help_text_style"
+                    android:text="@string/help_strategy_hreader_1" />
+
+                <LinearLayout
+                    android:id="@+id/content3_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/xt10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        style="@style/help_content_style"
+                        android:text="@string/help_strategy_content_1" />
+
+                    <TextView
+                        style="@style/help_content_style"
+                        android:text="@string/help_strategy_content_1_1" />
+
+                    <TextView
+                        style="@style/help_content_style"
+                        android:text="@string/help_strategy_content_1_2" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/strategy4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/xt10dp"
+                android:onClick="strategy4"
+                android:orientation="vertical"
+                android:text="@string/help_strategy_hreader_1">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/xt16sp"
+                        android:textColor="@color/gray_line"
+                        android:text="  3、"/>
+
+                    <TextView
+                        android:id="@+id/hreader4"
+                        style="@style/help_text_style"
+                        android:text="@string/propose_qu3" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/content4_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/xt10dp"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <TextView
+                        style="@style/help_content_style"
+                        android:text="@string/propose_ans3_1" />
+                    <!--<TextView-->
+                        <!--style="@style/help_content_style"-->
+                        <!--android:text="@string/propose_ans3_2" />-->
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/strategy5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/xt10dp"
+                android:onClick="strategy5"
+                android:orientation="vertical"
+                android:text="@string/help_strategy_hreader_1">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/xt16sp"
+                        android:textColor="@color/gray_line"
+                        android:text="  4、"/>
+                    <TextView
+                        android:id="@+id/hreader5"
+                        style="@style/help_text_style"
+                        android:text="@string/propose_qu4_0"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/content5_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/xt10dp"
+                    android:orientation="vertical"
+                    android:visibility="gone"
+                    >
+
+                    <TextView
+                        style="@style/help_content_style"
+                        android:text="@string/propose_qu4_1" />
+
+                    <TextView
+                        style="@style/help_content_style"
+                        android:text="@string/propose_qu4_2" />
+                    <TextView
+                        style="@style/help_content_style"
+                        android:text="@string/propose_qu4_3" />
+
+                    <TextView
+                        style="@style/help_content_style"
+                        android:text="@string/propose_qu4_4" />
+
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/strategy6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/xt10dp"
+                android:onClick="strategy6"
+                android:orientation="vertical"
+                android:text="@string/help_strategy_hreader_1">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/xt16sp"
+                        android:textColor="@color/gray_line"
+                        android:text="  5、"/>
+                    <TextView
+                        android:id="@+id/hreader6"
+                        style="@style/help_text_style"
+                        android:text="@string/propose_qu5" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/content6_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/xt10dp"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <TextView
+                        style="@style/help_content_style"
+                        android:text="@string/propose_ans5" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/strategy7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/xt10dp"
+                android:onClick="strategy7"
+                android:orientation="vertical"
+                android:text="@string/help_strategy_hreader_1">
+                <LinearLayout android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/xt16sp"
+                        android:textColor="@color/gray_line"
+                        android:text="  6、"/>
+
+                    <TextView
+                        android:id="@+id/hreader7"
+                        style="@style/help_text_style"
+                        android:text="@string/propose_qu6" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/content7_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/xt10dp"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <TextView
+                        style="@style/help_content_style"
+                        android:text="@string/propose_ans6" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/strategy8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/xt10dp"
+                android:onClick="strategy8"
+                android:orientation="vertical"
+                android:text="@string/help_strategy_hreader_1">
+                <LinearLayout android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/xt16sp"
+                        android:textColor="@color/gray_line"
+                        android:text="  7、"/>
+                    <TextView
+                        android:id="@+id/hreader8"
+                        style="@style/help_text_style"
+                        android:text="@string/propose_qu7" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/content8_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/xt10dp"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <TextView
+                        style="@style/help_content_style"
+                        android:text="@string/propose_ans7" />
+
+
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/strategy9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/xt10dp"
+                android:onClick="strategy9"
+                android:orientation="vertical"
+                android:text="@string/help_strategy_hreader_1">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/xt16sp"
+                        android:textColor="@color/gray_line"
+                        android:text="  8、"/>
+
+                    <TextView
+                        android:id="@+id/hreader9"
+                        style="@style/help_text_style"
+                        android:text="@string/propose_qu8" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/content9_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/xt10dp"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <TextView
+                        style="@style/help_content_style"
+                        android:text="@string/propose_ans8" />
+                </LinearLayout>
+              </LinearLayout>
+            </LinearLayout>
+           </ScrollView>
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_margin="@dimen/xt10dp"
+            android:id="@+id/pc"
+            />
+
+
+        <LinearLayout
+            android:id="@+id/phone_to_pc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone">
+            <LinearLayout
+                android:id="@+id/strategy10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/xt10dp"
+                android:orientation="vertical"
+                android:text="@string/help_strategy_hreader_1">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/xt16sp"
+                        android:textColor="@color/gray_line"
+                        android:text="  1、"/>
+
+                    <TextView
+                        android:onClick="strategy10"
+                        android:clickable="true"
+                        android:id="@+id/hreader10"
+                        style="@style/help_text_style"
+                        android:text="@string/propose_qu9" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/content10_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/xt10dp"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+
+                    <TextView
+                        android:id="@+id/tv_help"
+                        style="@style/help_content_style"
+                        android:text="@string/propose_ans9" />
+
+                </LinearLayout>
+            </LinearLayout>
+            </LinearLayout>
+           <ImageView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+
+               android:layout_margin="@dimen/xt10dp"
+               android:id="@+id/tv"
+               />
+
+           <LinearLayout
+               android:id="@+id/phone_to_tv"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="vertical"
+               android:visibility="gone">
+
+               <LinearLayout
+                   android:id="@+id/strategy12"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="@dimen/xt10dp"
+                   android:onClick="strategy8"
+                   android:orientation="vertical"
+                   android:text="@string/help_strategy_hreader_1">
+                   <LinearLayout android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:orientation="horizontal">
+                       <TextView android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:textSize="@dimen/xt16sp"
+                           android:textColor="@color/gray_line"
+                           android:text="  1、"/>
+                       <TextView
+                           android:id="@+id/hreader12"
+                           style="@style/help_text_style"
+                           android:text="@string/propose_qu7" />
+                   </LinearLayout>
+
+                   <LinearLayout
+                       android:id="@+id/content12_layout"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:layout_marginLeft="@dimen/xt10dp"
+                       android:orientation="vertical"
+                       android:visibility="gone">
+
+                       <TextView
+                           style="@style/help_content_style"
+                           android:text="@string/propose_ans7" />
+                   </LinearLayout>
+               </LinearLayout>
+
+           </LinearLayout>
+           <ImageView
+               android:id="@+id/propose"
+               android:layout_margin="@dimen/xt20dp"
+               android:layout_gravity="center"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:src="@mipmap/help_user"/>
+
+        </LinearLayout>
+
+</LinearLayout>

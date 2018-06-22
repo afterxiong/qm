@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:background="@color/white"
+    android:orientation="vertical" >
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/xt60dp"
+        android:background="@mipmap/nav_bg"
+        android:orientation="vertical"
+        >
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="@dimen/xt10dp"
+       >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/xt10dp"
+            android:gravity="center_vertical"
+            android:id="@+id/back"
+            android:orientation="horizontal" >
+	
+            <TextView
+                android:layout_width="@dimen/xt25dp"
+                android:layout_height="@dimen/xt25dp"
+                android:background="@mipmap/back_icon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:text="返回"
+                android:textColor="@color/white"
+                android:textSize="@dimen/xt18sp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="关 于"
+            android:textColor="@color/white"
+            android:textSize="@dimen/xt20sp" />
+    </RelativeLayout>
+   </LinearLayout>
+
+	
+	  <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginRight="@dimen/xt8dp"
+            android:orientation="vertical" >
+        <LinearLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical"
+	    android:layout_marginTop="@dimen/xt20dp"
+	    android:layout_marginLeft="@dimen/xt8dp"
+	    >
+	    	<TextView 
+	   android:layout_width="wrap_content"
+	   android:layout_height="wrap_content"
+	   android:text="扫描即可下载" 
+	   android:layout_gravity="center"
+	   android:textSize="@dimen/xt18sp"
+	   android:textColor="#000000"
+	    />
+	    	<ImageView 
+	    	    android:layout_width="@dimen/xt170dp"
+	    	    android:layout_height="@dimen/xt170dp"
+	    	    android:src="@mipmap/img_code"
+	    	    android:layout_margin="@dimen/xt10dp"
+	    	    android:layout_gravity="center"
+	    	    />	
+	    <LinearLayout 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+	    android:layout_gravity="center"
+	    android:layout_marginTop="@dimen/xt10dp"
+	    >
+	    	<TextView 
+	   android:layout_width="wrap_content"
+	   android:layout_height="wrap_content"
+	   android:text="任易屏：" 
+	   android:textSize="@dimen/xt15sp"
+	   android:textColor="@color/gray"
+	    />
+	    		<TextView 
+	   android:layout_width="wrap_content"
+	   android:layout_height="wrap_content"
+	   android:id="@+id/vcode"
+	   android:text="V1.0.0.5"
+	   android:textSize="@dimen/xt15sp"
+	   android:textColor="@color/gray"
+	   android:gravity="center"
+	   android:layout_marginLeft="@dimen/xt10dp"
+	    />
+	    
+	</LinearLayout>
+	</LinearLayout>
+            
+            
+            
+
+	
+<LinearLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+	    android:layout_marginTop="@dimen/xt55dp"
+	    android:layout_marginLeft="@dimen/xt8dp"
+	    >
+	    	<TextView 
+	   android:layout_width="wrap_content"
+	   android:layout_height="wrap_content"
+	   android:text="公 司：" 
+	   android:textSize="@dimen/xt15sp"
+	   android:textColor="@color/black"
+	    />
+	    		<TextView 
+	   android:layout_width="wrap_content"
+	   android:layout_height="wrap_content"
+	   android:text="武汉启目科技有限公司"
+	   android:textSize="@dimen/xt15sp"
+	   android:textColor="@color/gray"
+	   android:gravity="center"
+	   android:layout_marginLeft="@dimen/xt10dp"
+	    />
+	    
+	</LinearLayout>
+	
+<LinearLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+	    android:layout_marginTop="@dimen/xt30dp"
+	    android:layout_marginLeft="@dimen/xt8dp"
+	    >
+	    	<TextView 
+	   android:layout_width="wrap_content"
+	   android:layout_height="wrap_content"
+	   android:text="地 址：" 
+	   android:textSize="@dimen/xt15sp"
+	   android:textColor="@color/black"
+	    />
+	    		<TextView 
+	   android:layout_width="wrap_content"
+	   android:layout_height="wrap_content"
+	   android:text="武汉市东湖新技术开发区光谷软件园C3栋8楼"
+	   android:textSize="@dimen/xt15sp"
+	   android:textColor="@color/gray"
+	   
+	   android:layout_marginLeft="@dimen/xt10dp"
+	    />
+	    
+	</LinearLayout>
+	<LinearLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+	    android:layout_marginTop="@dimen/xt30dp"
+	    android:layout_marginLeft="@dimen/xt8dp"
+	    >
+	    	<TextView 
+	   android:layout_width="wrap_content"
+	   android:layout_height="wrap_content"
+	   android:text="客 服：" 
+	   android:textSize="@dimen/xt15sp"
+	   android:textColor="@color/black"
+	    />
+	    		<TextView 
+	   android:layout_width="wrap_content"
+	   android:layout_height="wrap_content"
+	   android:text="400-882-3060"
+	   android:autoLink="phone"
+	   android:textSize="@dimen/xt15sp"
+	   android:textColor="@color/black"
+	   android:gravity="center"
+	   android:layout_marginLeft="@dimen/xt10dp"
+	    />
+	    
+	</LinearLayout>
+	
+	<LinearLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+	    android:layout_marginTop="@dimen/xt30dp"
+	    android:layout_marginLeft="@dimen/xt8dp"
+	    >
+	    	<TextView 
+	   android:layout_width="wrap_content"
+	   android:layout_height="wrap_content"
+	   android:text="官 网：" 
+	   android:textSize="@dimen/xt15sp"
+	   android:textColor="@color/black"
+	    />
+	    		<TextView 
+	   android:layout_width="wrap_content"
+	   android:layout_height="wrap_content"
+	   android:text="www.shareshow.com.cn"
+	   android:textSize="@dimen/xt15sp"
+	   android:autoLink="web"
+	   android:textColor="@color/black"
+	   android:gravity="center"
+	   android:layout_marginLeft="@dimen/xt10dp"
+	    />
+	    
+	</LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+   
+</LinearLayout>

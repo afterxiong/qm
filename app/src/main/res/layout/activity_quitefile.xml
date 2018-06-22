@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:wheel="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?android:actionBarSize"
+            android:background="@color/colorPrimary">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@mipmap/back_icon"
+                android:textColor="@android:color/white"
+                android:gravity="center"
+                android:onClick="back"
+                android:drawablePadding="8dp"
+                android:textSize="16sp"
+                />
+
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                android:text="@string/file_share_2"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:background="@null"
+                android:visibility="gone"
+                android:text="取消"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+        </android.support.v7.widget.Toolbar>
+
+        <TextView
+            android:background="@color/file_line"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"></TextView>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/xt50dp"
+            android:layout_marginLeft="@dimen/xt5dp"
+            android:layout_marginRight="@dimen/xt5dp"
+            android:layout_marginTop="@dimen/xt10dp"
+            android:orientation="horizontal">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:id="@+id/local_file"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="1dp"
+                    android:ellipsize="middle"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:text="本地文件"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/xt16sp" />
+
+            <TextView
+                android:id="@+id/weixin_line"
+                android:layout_width="1dp"
+                android:layout_height="fill_parent"
+                android:background="@color/file_line"
+                android:layout_marginBottom="10dp"/>
+
+                <TextView
+                    android:layout_weight="1"
+                    android:id="@+id/weixin"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="1dp"
+                    android:background="@null"
+                    android:ellipsize="middle"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:text="微信文件"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/xt16sp" />
+
+            <TextView
+                android:id="@+id/qq_line"
+                android:layout_width="1dp"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="10dp"
+                android:background="@color/file_line" />
+
+               <TextView
+                   android:layout_weight="1"
+                    android:id="@+id/QQ"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="1dp"
+                    android:background="@null"
+                    android:ellipsize="middle"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:text="QQ文件"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/xt16sp" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:background="@color/file_line"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"></TextView>
+
+        <FrameLayout
+            android:id="@+id/frame"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="@dimen/xt5dp"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/popup_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/xt77dddddd"
+        android:visibility="gone" />
+</LinearLayout>

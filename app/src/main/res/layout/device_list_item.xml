@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/xt60dp"
+        android:layout_centerVertical="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:background="@mipmap/main_shap"
+        android:padding="@dimen/xt5dp">
+
+        <RelativeLayout
+            android:layout_width="@dimen/xt50dp"
+            android:layout_height="@dimen/xt50dp"
+            android:layout_marginLeft="@dimen/xt15dp"
+            android:gravity="center"
+            android:id="@+id/lock_item">
+
+            <com.jauker.widget.BadgeView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:id="@+id/bageView"
+               />
+
+        <ImageView
+            android:id="@+id/is_lock"
+            android:layout_width="@dimen/xt35dp"
+            android:layout_height="@dimen/xt35dp"
+            android:src="@mipmap/list_img" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/xt10dp"
+            android:textColor="@color/black"
+            android:layout_marginRight="@dimen/xt50dp"
+            android:singleLine="true"
+            android:ellipsize="middle"
+            android:textSize="@dimen/xt18sp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="100dp"
+        android:layout_height="@dimen/xt60dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/look_share_file"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/xt60dp"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/share_file"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textselector"
+                android:text="查看"/>
+
+        </LinearLayout>
+
+        <!--<LinearLayout-->
+            <!--android:id="@+id/item_line1"-->
+            <!--android:layout_marginRight="16dp"-->
+            <!--android:layout_marginLeft="16dp"-->
+            <!--android:layout_width="1dp"-->
+            <!--android:layout_height="40dp"-->
+            <!--android:gravity="center"-->
+            <!--android:background="@color/list_press"-->
+            <!--android:orientation="vertical">-->
+
+        <!--</LinearLayout>-->
+
+        <!--<LinearLayout-->
+        <!--android:id="@+id/share_screen"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="@dimen/xt60dp"-->
+        <!--android:layout_centerInParent="true"-->
+        <!--android:layout_centerVertical="true"-->
+        <!--android:gravity="center_vertical"-->
+        <!--android:orientation="vertical">-->
+
+        <!--<ImageView-->
+            <!--android:layout_width="30dp"-->
+            <!--android:layout_height="30dp"-->
+            <!--android:src="@drawable/fx"/>-->
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:textColor="@color/textselector"-->
+            <!--android:text="分享"/>-->
+
+      <!--</LinearLayout>-->
+
+
+        <LinearLayout
+            android:id="@+id/item_line2"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="1dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:background="@color/list_press"
+            android:orientation="vertical">
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:id="@+id/check"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/xt15dp"
+                android:src="@mipmap/screen_more_box" />
+
+            <ProgressBar
+                android:id="@+id/progress"
+                style="?android:attr/progressBarStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/xt15dp"
+                android:visibility="gone" />
+
+        </RelativeLayout>
+
+   </LinearLayout>
+
+</RelativeLayout>

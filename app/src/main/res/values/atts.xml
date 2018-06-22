@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="LoadingView">
+        <attr name="circle_radius" format="dimension" />
+        <attr name="line_width" format="dimension" />
+        <attr name="line_height" format="dimension" />
+        <attr name="line_number" format="integer" />
+        <attr name="loadText" format="string" />
+        <attr name="loadTextSize" format="dimension" />
+        <attr name="loadTextColor" format="color" />
+        <attr name="loadTextTop" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="LineEditText">
+        <attr name="lineColorEt" format="color" />
+    </declare-styleable>
+
+</resources>

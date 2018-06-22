@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/small_window_layout"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+    >
+    
+    <RelativeLayout
+     android:id="@+id/small_window_layout_left"
+	 android:layout_width="wrap_content"
+	 android:layout_height="wrap_content"
+	 android:visibility="visible"
+     >
+       <LinearLayout      
+        android:layout_marginTop="6dp"
+        android:layout_marginLeft="30dip"       
+        android:id="@+id/float_window_big"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        android:background="@mipmap/float_window_big_left"
+        android:orientation="horizontal"
+        >
+           
+           
+           <LinearLayout 
+               android:id="@+id/window_hide_left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:layout_marginLeft="30dp"
+            >
+           <ImageView 
+        android:id="@+id/window_visible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:layout_gravity="center"
+        android:src="@drawable/window_hide"
+        />
+           
+             <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                android:textColor="@color/window_textselector"
+                android:text="隐藏"
+                android:layout_gravity="center"
+                 android:textSize="@dimen/window_text_size" 
+             
+             />
+          </LinearLayout>
+
+         <LinearLayout 
+                 android:id="@+id/window_main_left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                 android:layout_marginRight="10dp"
+            >
+
+             <ImageView
+                 android:id="@+id/main"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_gravity="center"
+                 android:src="@drawable/main_bg" />
+
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                android:textColor="@color/window_textselector"
+                android:text="主页"
+                android:layout_gravity="center"
+                 android:textSize="@dimen/window_text_size" 
+             />
+            </LinearLayout>
+            
+         
+        <LinearLayout 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+            >   
+                   
+        <ProgressBar
+        android:id="@+id/progress"
+        style="?android:attr/progressBarStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone" />
+        
+          <LinearLayout 
+                android:id="@+id/window_screen_left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:visibility="visible"
+            >
+                 
+         <ImageView 
+        android:id="@+id/cast_screen"
+        android:src="@drawable/cast_screen_bg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:layout_gravity="center"
+    
+        />
+         <TextView 
+               android:id="@+id/cast_screen_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                android:textColor="@color/window_textselector"
+                android:text="投屏" 
+                android:layout_gravity="center" 
+                android:textSize="@dimen/window_text_size"     
+             />
+           </LinearLayout>
+          </LinearLayout>
+    </LinearLayout> 
+
+      <ImageView 
+        android:id="@+id/float_window_small"
+        android:src="@mipmap/float_window_small_click"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+         android:visibility="visible"
+        />
+  </RelativeLayout>
+    
+    
+</RelativeLayout>
+
+
